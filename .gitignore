@@ -1,0 +1,16 @@
+
+#ignore env variables
+.env
+
+# ignore OS generated files
+ehthumbs.db
+Thumbs.db
+.DS_Store
+
+# ignore log files and databases
+*.log
+*.sql
+*.sqlite
+
+# ignore VSCode project files
+*.code-workspace
