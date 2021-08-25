@@ -11,6 +11,21 @@ Make sure you have installed [node/npm](https://docs.npmjs.com/downloading-and-i
 
 We are using the [`wordpress/env` project](https://developer.wordpress.org/block-editor/reference-guides/packages/packages-env/) to simplify our developer experience. Please follow the `wordpress/env` installation instructions.
 
+
+### Initialize Git submodules
+
+This project consists of several components, such as WordPress themes, that are developed in their own Git repositories. If you have already cloned this project's code, make sure the Git sub-modules are activated by running the following command.
+
+```sh
+git submodule update --init
+```
+
+Alternatively, you can initialize the submodules when you clone the repository with the following command.
+
+```sh
+git clone --recursive
+```
+
 ### Run the development server
 
 Once you have installed the above development dependencies, you can run the following commands from within this project directory.
