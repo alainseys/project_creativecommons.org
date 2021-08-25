@@ -3,34 +3,36 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-Make sure you have installed Docker and `docker-compose` for your operating system prior to following these instructions.
+## Development
 
-## Docker compose
+### Development dependencies
+Make sure you have installed [node/npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm), [Docker]
+(https://docs.docker.com/get-docker/), and `docker-compose` for your operating system prior to following these instructions.
 
-The Docker compose file will start a few required or related services:
+We are using the [`wordpress/env` project](https://developer.wordpress.org/block-editor/reference-guides/packages/packages-env/) to simplify our developer experience. Please follow the `wordpress/env` installation instructions.
 
-- a database server (MySQL or MariaDB)
-- a WordPress server
-- WordPress CLI - for managing the WordPress instance
-- phpMyAdmin - for managing the database
+### Run the development server
 
+Once you have installed the above development dependencies, you can run the following commands from within this project directory.
 
-## Environment variables
+Start the server:
 
-There are several environment variables required to run the `docker-compose` command. Copy the `.env.example` to `.env` and override the variables if needed. The defaults should work fine.
+```sh
+wp-env start
+```
 
-## Changing database
+Stop the server:
 
-The `.env` file should contain a variable called `DATABASE` that is used to choose which database to use for development (mysql or mariadb).
+```sh
+wp-env stop
+```
 
-If you change the value of the `DATABASE` variable at any time during development, you will need to remove the old database volume in order and rebuild the images to prevent errors. 
+### Log in to WordPress
 
-1. list all Docker volumes to find the relevant volume
-    - `docker volume ls`
-2. remove the volume
-    - `docker volume rm <volume-id>`
-3. rebuild the docker image
-    - `docker-compose up --build -d`
+With the development server running, log in to the local WordPress with the default login credentials.
+
+- username: admin
+- password: password
 
 ## Contributors ✨
 
