@@ -1,0 +1,9 @@
+{
+    "core": null,
+    "phpVersion": "7.3",
+    "plugins": [],
+    "themes": [],
+    "mappings": {
+        "wp-content/themes/creativecommons-base/": "./creativecommons-base/"
+    }
+}

@@ -1,0 +1,3 @@
+[submodule "creativecommons-base"]
+	path = creativecommons-base
+	url = git@github.com:creativecommons/creativecommons-base.git

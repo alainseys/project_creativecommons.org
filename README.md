@@ -3,34 +3,51 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-Make sure you have installed Docker and `docker-compose` for your operating system prior to following these instructions.
+## Development
 
-## Docker compose
+### Development dependencies
+Make sure you have installed [node/npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm), [Docker]
+(https://docs.docker.com/get-docker/), and `docker-compose` for your operating system prior to following these instructions.
 
-The Docker compose file will start a few required or related services:
-
-- a database server (MySQL or MariaDB)
-- a WordPress server
-- WordPress CLI - for managing the WordPress instance
-- phpMyAdmin - for managing the database
+We are using the [`wordpress/env` project](https://developer.wordpress.org/block-editor/reference-guides/packages/packages-env/) to simplify our developer experience. Please follow the `wordpress/env` installation instructions.
 
 
-## Environment variables
+### Initialize Git submodules
 
-There are several environment variables required to run the `docker-compose` command. Copy the `.env.example` to `.env` and override the variables if needed. The defaults should work fine.
+This project consists of several components, such as WordPress themes, that are developed in their own Git repositories. If you have already cloned this project's code, make sure the Git sub-modules are activated by running the following command.
 
-## Changing database
+```sh
+git submodule update --init
+```
 
-The `.env` file should contain a variable called `DATABASE` that is used to choose which database to use for development (mysql or mariadb).
+Alternatively, you can initialize the submodules when you clone the repository with the following command.
 
-If you change the value of the `DATABASE` variable at any time during development, you will need to remove the old database volume in order and rebuild the images to prevent errors. 
+```sh
+git clone --recursive
+```
 
-1. list all Docker volumes to find the relevant volume
-    - `docker volume ls`
-2. remove the volume
-    - `docker volume rm <volume-id>`
-3. rebuild the docker image
-    - `docker-compose up --build -d`
+### Run the development server
+
+Once you have installed the above development dependencies, you can run the following commands from within this project directory.
+
+Start the server:
+
+```sh
+wp-env start
+```
+
+Stop the server:
+
+```sh
+wp-env stop
+```
+
+### Log in to WordPress
+
+With the development server running, log in to the local WordPress with the default login credentials.
+
+- username: admin
+- password: password
 
 ## Contributors ✨
 
