@@ -4,6 +4,7 @@
     "plugins": [],
     "themes": [],
     "mappings": {
-        "wp-content/themes/creativecommons-base/": "./creativecommons-base/"
+        "wp-content/themes/creativecommons-base/": "./creativecommons-base/",
+        "wp-content/themes/wp-theme-creativecommons-org/": "./wp-theme-creativecommons.org/"
     }
 }
