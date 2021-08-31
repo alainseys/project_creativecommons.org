@@ -30,13 +30,19 @@ git clone --recursive
 
 Once you have installed the above development dependencies, you can run the following commands from within this project directory.
 
-Start the server:
+#### Start the server
 
 ```sh
 wp-env start
 ```
 
-Stop the server:
+**Note: if you get an [error related to Xdebug when starting the server](https://github.com/WordPress/gutenberg/issues/34320), make sure to prune old Docker images with
+
+```
+docker image prune -a
+```
+
+#### Stop the server
 
 ```sh
 wp-env stop
