@@ -36,7 +36,7 @@ Once you have installed the above development dependencies, you can run the foll
 wp-env start
 ```
 
-**Note: if you get an [error related to Xdebug when starting the server](https://github.com/WordPress/gutenberg/issues/34320), make sure to prune old Docker images with
+**Note:** if you get an [error related to Xdebug when starting the server](https://github.com/WordPress/gutenberg/issues/34320), make sure to prune old Docker images with
 
 ```
 docker image prune -a
