@@ -1,6 +1,6 @@
 # project_creativecommons.org
 
-Project for creativecommons.org website
+Project to manage technical implementation of [creativecommons.org](https://creativecommons.org/) (primary website)
 
 
 ## Status
