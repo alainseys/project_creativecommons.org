@@ -59,9 +59,7 @@ See [`CONTRIBUTING.md`](CONTRIBUTING.md) and [Contributors ✨](#contributors-),
 
 
 ### Development dependencies
-Make sure you have installed [node/npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm), [Docker](https://docs.docker.com/get-docker/), and `docker-compose` for your operating system prior to following these instructions.
-
-We are using the [`wordpress/env` project](https://developer.wordpress.org/block-editor/reference-guides/packages/packages-env/) to simplify our developer experience. Please follow the `wordpress/env` installation instructions.
+Make sure you have installed [Docker](https://docs.docker.com/get-docker/) and `docker-compose` for your operating system prior to following these instructions.
 
 
 ### Initialize Git submodules
@@ -78,6 +76,22 @@ Alternatively, you can initialize the submodules when you clone the repository w
 git clone --recursive
 ```
 
+## Environment variables
+
+There are several environment variables required to run the `docker-compose` command. Copy the `.env.example` to `.env` and override the variables if needed. The defaults should work fine.
+
+### Changing database
+
+The `.env` file should contain a variable called `DATABASE` that is used to choose which database to use for development (`mysql` or `mariadb`).
+
+If you change the value of the `DATABASE` variable at any time during development, you will need to remove the old database volume in order and rebuild the images to prevent errors.
+
+1. list all Docker volumes to find the relevant volume
+    - `docker volume ls`
+2. remove the volume
+    - `docker volume rm <volume-id>`
+3. rebuild the docker image
+    - `docker-compose up --build -d`
 
 ### Run the development server
 
@@ -87,21 +101,23 @@ Once you have installed the above development dependencies, you can run the foll
 #### Start the server
 
 ```sh
-wp-env start
+docker-compose up
 ```
-
-**Note:** if you get an [error related to Xdebug when starting the server](https://github.com/WordPress/gutenberg/issues/34320), make sure to prune old Docker images with
-
-```
-docker image prune -a
-```
-
 
 #### Stop the server
 
 ```sh
-wp-env stop
+docker-compose down
 ```
+
+
+### Access WordPress
+
+After starting the server, you should be able to access WordPress at http://localhost:8080
+
+### Install WordPres (first-time)
+
+If you are starting the WordPress service for the first time, you will see the WordPress installation wizard. Complete the installation process and make note of your username and password so that you can log in (below).
 
 
 ### Log in to WordPress
@@ -111,6 +127,14 @@ With the development server running, log in to the local WordPress with the defa
 - username: admin
 - password: password
 
+Note: you will need to visit http://localhost:8080/wp-login.php
+
+
+### Access the WordPress admin area
+
+Once you are logged in with your admin user (above), you can access the WordPress admin area:
+
+- http://localhost:8080/wp-admin/
 
 ## License
 
