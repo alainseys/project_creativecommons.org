@@ -1,9 +1,9 @@
 version: "3"
 
 services:
-  wp:
+  wordpress:
     image: wordpress:latest # https://hub.docker.com/_/wordpress/
-    container_name: project_creativecommons-wp
+    container_name: project_creativecommons-wordpress
     ports:
       - ${IP}:8080:80 # change ip if required
     volumes:
@@ -12,30 +12,30 @@ services:
       #- ./plugin-name/trunk/:/var/www/html/wp-content/plugins/plugin-name # Plugin development
       - ../:/var/www/html/wp-content/themes/creativecommons-base # Theme development
     environment:
-      WORDPRESS_DB_HOST: db
+      WORDPRESS_DB_HOST: database
       WORDPRESS_DB_NAME: "${DB_NAME}"
       WORDPRESS_DB_USER: root
       WORDPRESS_DB_PASSWORD: "${DB_ROOT_PASSWORD}"
     depends_on:
-      - db
+      - database
     networks:
       - backend
-  pma:
+  phpmyadmin:
     image: phpmyadmin/phpmyadmin
     container_name: project_creativecommons-phpmyadmin
     environment:
       # https://docs.phpmyadmin.net/en/latest/setup.html#docker-environment-variables
-      PMA_HOST: db
+      PMA_HOST: database
       PMA_PORT: 3306
       MYSQL_ROOT_PASSWORD: "${DB_ROOT_PASSWORD}"
     ports:
       - ${IP}:8081:80
     networks:
       - backend
-  db:
+  database:
     build:
       context: ./database/${DATABASE} #change db if required in .env file
-    container_name: project_creativecommons-db
+    container_name: project_creativecommons-database
     ports:
       - ${IP}:3306:3306 # change ip if required
     volumes:
