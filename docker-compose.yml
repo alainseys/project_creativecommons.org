@@ -10,7 +10,9 @@ services:
       #- ./config/php.conf.ini:/usr/local/etc/php/conf.d/conf.ini
       - ./wp-app:/var/www/html # Full wordpress project
       #- ./plugin-name/trunk/:/var/www/html/wp-content/plugins/plugin-name # Plugin development
-      - ../:/var/www/html/wp-content/themes/creativecommons-base # Theme development
+      # Theme development
+      - ./creativecommons-base/:/var/www/html/wp-content/themes/creativecommons-base
+      - ./wp-theme-creativecommons.org/:/var/www/html/wp-content/themes/wp-theme-creativecommons.org
     environment:
       WORDPRESS_DB_HOST: database
       WORDPRESS_DB_NAME: "${DB_NAME}"
