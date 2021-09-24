@@ -122,10 +122,7 @@ If you are starting the WordPress service for the first time, you will see the W
 
 ### Log in to WordPress
 
-With the development server running, log in to the local WordPress with the default login credentials.
-
-- username: admin
-- password: password
+With the development server running, log in to the local WordPress with the login credentials you created during the WordPress installation.
 
 Note: you will need to visit http://localhost:8080/wp-login.php
 
