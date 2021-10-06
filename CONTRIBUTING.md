@@ -83,3 +83,15 @@ Once you are logged in with your admin user (above), you can access the WordPres
 ### Activate CC theme and plugins
 
 From the WordPress admin area, you can activate the Creative Commons WordPress theme and plugins.
+
+### Developing Gutenberg blocks
+
+This project contains the `wp-plugin-cc-gutenberg-blocks` project as a Git submodule. Do the following, if you would like to develop CC Gutenberg blocks in the context of `project_creativecommons.org`.
+
+1. make sure you have completed all of the above steps so the Docker Compose project is running
+2. open a new teminal
+3. change directory `cd` into `wp-plugin-cc-gutenberg-blocks`
+4. run `npm install` to install dependencies
+5. run `npm start` to start the Gutenberg block development project
+
+From there, you can make changes to files in `wp-plugin-cc-gutenberg-blocks/src/` that will automatically build. Commits made to that submodule can be pushed to branches in the upstream project as well.
