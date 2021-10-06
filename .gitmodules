@@ -4,3 +4,6 @@
 [submodule "wp-theme-creativecommons.org"]
 	path = wp-theme-creativecommons.org
 	url = git@github.com:creativecommons/wp-theme-creativecommons.org.git
+[submodule "wp-plugin-cc-gutenberg-blocks"]
+	path = wp-plugin-cc-gutenberg-blocks
+	url = https://github.com/creativecommons/wp-plugin-cc-gutenberg-blocks.git
