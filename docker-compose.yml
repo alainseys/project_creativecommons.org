@@ -10,7 +10,7 @@ services:
       #- ./config/php.conf.ini:/usr/local/etc/php/conf.d/conf.ini
       - ./wp-app:/var/www/html # Full wordpress project
       # Plugin development
-      - ./wp-plugin-cc-gutenberg-blocks/:/var/www/html/wp-content/plugins/wp-plugin-cc-gutenberg-blocks
+      - ./wp-plugin-cc-gutenberg-blocks/dist/:/var/www/html/wp-content/plugins/wp-plugin-cc-gutenberg-blocks
       # Theme development
       - ./creativecommons-base/:/var/www/html/wp-content/themes/creativecommons-base
       - ./wp-theme-creativecommons.org/:/var/www/html/wp-content/themes/wp-theme-creativecommons.org
