@@ -35,11 +35,11 @@ git clone --recursive
 
 ## Environment variables
 
-There are several environment variables required to run the `docker-compose` command. Copy the `.env.example` to `.env` and override the variables if needed. The defaults should work fine.
+There are several optional environment variables used in the `docker-compose.yml` file. If you need, you can  copy the `.env.example` to `.env` and override the variables. Otherwise, the defaults should work fine.
 
 ### Changing database
 
-The `.env` file should contain a variable called `DATABASE` that is used to choose which database to use for development (`mysql` or `mariadb`).
+The optional `.env` file may contain a variable called `DATABASE`. The value of `DATABASE` will determine which database is used for development (`mysql` or `mariadb`). By default, we use `mariadb` but you can change this to `mysql` if desired.
 
 If you change the value of the `DATABASE` variable at any time during development, you will need to remove the old database volume in order and rebuild the images to prevent errors.
 
