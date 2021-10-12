@@ -1,0 +1,8 @@
+ports:
+  - port: 8080
+    visibility: public
+    onOpen: open-preview
+  - port: 8081
+    visibility: private
+  - port: 3306
+    visibility: private
