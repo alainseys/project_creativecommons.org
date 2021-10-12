@@ -15,6 +15,8 @@ Make sure you have installed [Docker](https://docs.docker.com/get-docker/) and `
 
 You may use a browser-based development environment instead of installing Docker and Docker Compose locally. Just click the "Develop with Gitpod" button below to launch a pre-configured development environment. Once the environment opens in your browser, continue with the following sections (skipping sections handled automatically by Gitpod as noted).
 
+**WARNING**: remember to delete your Gitpod workspace when you are done with development each day. Otherwise, you may quickly exceed your open-source Gitpod credits. Be sure to push all desired changes in your Gitpod workspace to GitHub prior to deletion.
+
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/creativecommons/project_creativecommons.org)
 
 ### Initialize Git submodules
