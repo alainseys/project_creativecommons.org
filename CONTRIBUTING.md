@@ -58,6 +58,8 @@ Once you have installed the above development dependencies, you can run the foll
 
 #### Start the server
 
+Note: this step is handled automatically in the browser-based development environment.
+
 ```sh
 docker-compose up
 ```
