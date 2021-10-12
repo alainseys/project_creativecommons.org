@@ -1,11 +1,13 @@
 ports:
+  - port: 3306
+    visibility: private
+    onOpen: ignore
   - port: 8080
     visibility: public
     onOpen: open-preview
   - port: 8081
     visibility: private
-  - port: 3306
-    visibility: private
+    onOpen: ignore
 
 tasks:
   - name: Initialize Git submodules
