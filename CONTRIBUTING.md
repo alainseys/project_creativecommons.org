@@ -8,7 +8,14 @@ There are many ways to contribute to this project, such as testing, design, and 
 This section provides information for people who are interested in contributing code.
 
 ### Development dependencies
-Make sure you have installed [Docker](https://docs.docker.com/get-docker/) and `docker-compose` for your operating system prior to following these instructions.
+
+Make sure you have installed [Docker](https://docs.docker.com/get-docker/) and `docker-compose` for your operating system prior to following these instructions. Alternatively, you can use the browser-based development environment described below.
+
+### Browser-based development environment
+
+You may use a browser-based development environment instead of installing Docker and Docker Compose locally. Just click the "Develop with Gitpod" button below to launch a pre-configured development environment. Once the environment opens in your browser, continue with the following sections (skipping sections handled automatically by Gitpod as noted).
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/creativecommons/project_creativecommons.org)
 
 ### Initialize Git submodules
 
