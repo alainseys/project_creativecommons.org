@@ -12,3 +12,5 @@ ports:
 tasks:
   - name: Initialize Git submodules
     command: git submodule update --init
+  - name: Start Docker Compose
+    command: docker-compose up
