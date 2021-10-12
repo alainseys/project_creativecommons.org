@@ -6,3 +6,7 @@ ports:
     visibility: private
   - port: 3306
     visibility: private
+
+tasks:
+  - name: Initialize Git submodules
+    command: git submodule update --init
