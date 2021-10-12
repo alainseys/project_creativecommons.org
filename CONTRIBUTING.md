@@ -19,6 +19,8 @@ You may use a browser-based development environment instead of installing Docker
 
 ### Initialize Git submodules
 
+Note: this step is handled automatically in the browser-based development environment.
+
 This project consists of several components, such as WordPress themes, that are developed in their own Git repositories. If you have already cloned this project's code, make sure the Git sub-modules are activated by running the following command.
 
 ```sh
