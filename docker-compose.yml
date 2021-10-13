@@ -37,7 +37,7 @@ services:
       - backend
   database:
     build:
-      #change db if required in .env file
+      # change db if required in .env file
       context: ./database/${DATABASE:-mariadb}
     container_name: project_creativecommons-database
     ports:
