@@ -5,10 +5,11 @@ services:
     image: wordpress:latest # https://hub.docker.com/_/wordpress/
     container_name: project_creativecommons-wordpress
     ports:
-      - ${IP}:8080:80 # change ip if required
+      - 8080:80
     volumes:
       #- ./config/php.conf.ini:/usr/local/etc/php/conf.d/conf.ini
-      - ./wp-app:/var/www/html # Full wordpress project
+       # Full wordpress project
+      - ./wp-app:/var/www/html
       # Plugin development
       - ./wp-plugin-cc-gutenberg-blocks/:/var/www/html/wp-content/plugins/wp-plugin-cc-gutenberg-blocks
       # Theme development
@@ -16,9 +17,9 @@ services:
       - ./wp-theme-creativecommons.org/:/var/www/html/wp-content/themes/wp-theme-creativecommons.org
     environment:
       WORDPRESS_DB_HOST: database
-      WORDPRESS_DB_NAME: "${DB_NAME}"
+      WORDPRESS_DB_NAME: "${DB_NAME:-wordpress_db}"
       WORDPRESS_DB_USER: root
-      WORDPRESS_DB_PASSWORD: "${DB_ROOT_PASSWORD}"
+      WORDPRESS_DB_PASSWORD: "${DB_ROOT_PASSWORD:-db_password}"
     depends_on:
       - database
     networks:
@@ -27,27 +28,27 @@ services:
     image: phpmyadmin/phpmyadmin
     container_name: project_creativecommons-phpmyadmin
     environment:
-      # https://docs.phpmyadmin.net/en/latest/setup.html#docker-environment-variables
       PMA_HOST: database
       PMA_PORT: 3306
-      MYSQL_ROOT_PASSWORD: "${DB_ROOT_PASSWORD}"
+      MYSQL_ROOT_PASSWORD: "${DB_ROOT_PASSWORD:-db_password}"
     ports:
-      - ${IP}:8081:80
+      - 8081:80
     networks:
       - backend
   database:
     build:
-      context: ./database/${DATABASE} #change db if required in .env file
+      # change db if required in .env file
+      context: ./database/${DATABASE:-mariadb}
     container_name: project_creativecommons-database
     ports:
-      - ${IP}:3306:3306 # change ip if required
+      - 3306:3306
     volumes:
       #- ./wp-data:/docker-entrypoint-initdb.d
       - db_data:/var/lib/mysql
     environment:
-      MYSQL_DATABASE: "${DB_NAME}"
+      MYSQL_DATABASE: "${DB_NAME:-wordpress_db}"
       MYSQL_USER: root
-      MYSQL_ROOT_PASSWORD: "${DB_ROOT_PASSWORD}"
+      MYSQL_ROOT_PASSWORD: "${DB_ROOT_PASSWORD:-db_password}"
     networks:
       - backend
 

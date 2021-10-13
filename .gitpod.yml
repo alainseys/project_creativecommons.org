@@ -1,0 +1,16 @@
+ports:
+  - port: 3306
+    visibility: private
+    onOpen: ignore
+  - port: 8080
+    visibility: public
+    onOpen: notify
+  - port: 8081
+    visibility: private
+    onOpen: ignore
+
+tasks:
+  - name: Initialize Git submodules
+    command: git submodule update --init
+  - name: Start Docker containers
+    command: docker-compose up
