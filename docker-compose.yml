@@ -11,7 +11,7 @@ services:
        # Full wordpress project
       - ./wp-app:/var/www/html
       # Plugin development
-      - ./wp-plugin-cc-gutenberg-blocks/:/var/www/html/wp-content/plugins/wp-plugin-cc-gutenberg-blocks
+      - ./wp-plugin-creativecommons.org/:/var/www/html/wp-content/plugins/wp-plugin-creativecommons.org
       # Theme development
       - ./creativecommons-base/:/var/www/html/wp-content/themes/creativecommons-base
       - ./wp-theme-creativecommons.org/:/var/www/html/wp-content/themes/wp-theme-creativecommons.org
