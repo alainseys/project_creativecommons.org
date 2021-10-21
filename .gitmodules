@@ -7,3 +7,6 @@
 [submodule "wp-plugin-creativecommons.org"]
 	path = wp-plugin-creativecommons.org
 	url = https://github.com/creativecommons/wp-plugin-creativecommons.org.git
+[submodule "wp-plugin-creativecommons-website"]
+	path = wp-plugin-creativecommons-website
+	url = https://github.com/creativecommons/wp-plugin-creativecommons-website.git
