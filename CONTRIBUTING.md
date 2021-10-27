@@ -72,7 +72,7 @@ docker-compose down
 
 ### Access WordPress
 
-After starting the server, you should be able to access WordPress at http://localhost:8080
+After starting the server, you should be able to access WordPress at http://127.0.0.1:8080
 
 ### Install WordPres (first-time)
 
