@@ -8,7 +8,7 @@ services:
       - 8080:80
     volumes:
       #- ./config/php.conf.ini:/usr/local/etc/php/conf.d/conf.ini
-       # Full wordpress project
+      # Full wordpress project
       #- ./wp-app:/var/www/html
       # Plugin development
       - ./wp-plugin-creativecommons-website/:/var/www/html/wp-content/plugins/wp-plugin-creativecommons-website
