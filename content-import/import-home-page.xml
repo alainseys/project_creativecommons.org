@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/5.8.1" created="2021-11-02 10:31" -->
+	<!-- generator="WordPress/5.8.1" created="2021-11-02 13:02" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>Creative Commons</title>
 	<link>http://localhost:8080</link>
 	<description>Better Sharing, Better Future</description>
-	<pubDate>Tue, 02 Nov 2021 10:31:50 +0000</pubDate>
+	<pubDate>Tue, 02 Nov 2021 13:02:39 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://localhost:8080</wp:base_site_url>
@@ -47,23 +47,25 @@
 		<dc:creator><![CDATA[muluhgodson]]></dc:creator>
 		<guid isPermaLink="false">http://localhost:8080/?page_id=5</guid>
 		<description></description>
-		<content:encoded><![CDATA[<!-- wp:columns {"verticalAlignment":"center","backgroundColor":"white"} -->
-<div class="wp-block-columns are-vertically-aligned-center has-white-background-color has-background"><!-- wp:column {"verticalAlignment":"center"} -->
-<div class="wp-block-column is-vertically-aligned-center"><!-- wp:paragraph {"textColor":"black","fontSize":"value"} -->
-<p class="has-black-color has-text-color has-value-font-size"><strong>BETTER SHARING,</strong></p>
+		<content:encoded><![CDATA[<!-- wp:columns {"align":"full"} -->
+<div class="wp-block-columns alignfull"><!-- wp:column -->
+<div class="wp-block-column"><!-- wp:columns {"verticalAlignment":"center","align":"wide"} -->
+<div class="wp-block-columns alignwide are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center"} -->
+<div class="wp-block-column is-vertically-aligned-center"><!-- wp:paragraph {"textColor":"black","fontSize":"huge"} -->
+<p class="has-black-color has-text-color has-huge-font-size"><strong>BETTER SHARING,</strong></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"textColor":"black","fontSize":"value"} -->
-<p class="has-black-color has-text-color has-value-font-size"><strong>BRIGHTER FUTURE</strong></p>
+<!-- wp:paragraph {"textColor":"black","fontSize":"huge"} -->
+<p class="has-black-color has-text-color has-huge-font-size"><strong>BRIGHTER FUTURE</strong></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"textColor":"black"} -->
-<p class="has-black-color has-text-color">Creative Commons promotes the sharing of<br>knowledge and culture that positively impacts<br>people, their communities, and the world.</p>
+<!-- wp:paragraph -->
+<p>Creative Commons promotes the sharing of<br>knowledge and culture that positively impacts<br>people, their communities, and the world.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons -->
-<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"white","textColor":"tomato","className":"is-style-fill"} -->
-<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-tomato-color has-white-background-color has-text-color has-background"><strong>LEARN MORE</strong></a></div>
+<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"white","textColor":"tomato"} -->
+<div class="wp-block-button"><a class="wp-block-button__link has-tomato-color has-white-background-color has-text-color has-background"><strong>LEARN MORE</strong></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:column -->
@@ -75,62 +77,54 @@
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
-<!-- wp:columns -->
-<div class="wp-block-columns"><!-- wp:column {"backgroundColor":"white"} -->
-<div class="wp-block-column has-white-background-color has-background"><!-- wp:columns {"backgroundColor":"tomato","textColor":"white"} -->
-<div class="wp-block-columns has-white-color has-tomato-background-color has-text-color has-background"><!-- wp:column -->
-<div class="wp-block-column"><!-- wp:heading {"textColor":"white"} -->
-<h2 class="has-white-color has-text-color">THE NONPROFIT BEHIND THE LICENSES AND TOOLS THE WORLD USES TO SHARE</h2>
+<!-- wp:group {"align":"full","backgroundColor":"tomato"} -->
+<div class="wp-block-group alignfull has-tomato-background-color has-background"><!-- wp:heading {"textColor":"white","fontSize":"huge"} -->
+<h2 class="has-white-color has-text-color has-huge-font-size">THE NONPROFIT BEHIND THE LICENSES AND TOOLS THE WORLD USES TO SHARE</h2>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph -->
-<p>For 20 years, Creative Commons has supported a global movement built on a belief in the power of open access to knowledge and creativity. From Wikipedia to the Smithsonian, organizations and individuals rely on our work to share billions of historic images, scientific articles, educational resources, music and more!</p>
+<!-- wp:paragraph {"textColor":"white","fontSize":"normal"} -->
+<p class="has-white-color has-text-color has-normal-font-size">For 20 years, Creative Commons has supported a global movement built on a belief in the power of open access to knowledge and creativity. From Wikipedia to the Smithsonian, organizations and individuals rely on our work to share billions of historic images, scientific articles, educational resources, music and more!</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:spacer -->
-<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer -->
-
-<!-- wp:columns {"verticalAlignment":"bottom"} -->
-<div class="wp-block-columns are-vertically-aligned-bottom"><!-- wp:column {"verticalAlignment":"bottom"} -->
-<div class="wp-block-column is-vertically-aligned-bottom"><!-- wp:image {"align":"full","id":75,"sizeSlug":"full","linkDestination":"none","className":"is-style-default"} -->
-<figure class="wp-block-image alignfull size-full is-style-default"><img src="http://localhost:8080/wp-content/uploads/2021/10/farmer.jpeg" alt="" class="wp-image-75"/><figcaption><span class="has-inline-color has-white-color">"Farmer and his brother making music" by exit78 is marked with CC PDM 1.0</span></figcaption></figure>
+<!-- wp:columns -->
+<div class="wp-block-columns"><!-- wp:column -->
+<div class="wp-block-column"><!-- wp:image {"align":"full","id":75,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image alignfull size-full"><img src="http://localhost:8080/wp-content/uploads/2021/10/farmer.jpeg" alt="" class="wp-image-75"/><figcaption>“Flicker photowalk at the Creative Commons Global Summit 2019, Lisbon” by Sebastian ter Burg is licensed under CC By 2.0</figcaption></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 
-<!-- wp:column {"verticalAlignment":"bottom"} -->
-<div class="wp-block-column is-vertically-aligned-bottom"><!-- wp:image {"align":"full","id":83,"sizeSlug":"full","linkDestination":"none","style":{"color":{"duotone":["#000000","#ffffff"]}}} -->
-<figure class="wp-block-image alignfull size-full"><img src="http://localhost:8080/wp-content/uploads/2021/10/summit-edited.jpeg" alt="" class="wp-image-83"/><figcaption><span class="has-inline-color has-white-color">"Flicker photowalk at the Creative Commons Global Summit 2019, Lisbon" by Sebastian ter Burg is licensed under CC By 2.0</span></figcaption></figure>
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:image {"align":"full","id":85,"sizeSlug":"full","linkDestination":"none","style":{"color":{"duotone":["#000000","#ffffff"]}}} -->
+<figure class="wp-block-image alignfull size-full"><img src="http://localhost:8080/wp-content/uploads/2021/10/summit-edited-2.jpeg" alt="" class="wp-image-85"/><figcaption>“Farmer and his brother making music” by exit78 is marked with CC PDM 1.</figcaption></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 
-<!-- wp:column {"verticalAlignment":"bottom"} -->
-<div class="wp-block-column is-vertically-aligned-bottom"><!-- wp:image {"align":"full","id":77,"sizeSlug":"full","linkDestination":"none","style":{"color":{"duotone":["#000000","#ffffff"]}}} -->
-<figure class="wp-block-image alignfull size-full"><img src="http://localhost:8080/wp-content/uploads/2021/10/sars.jpeg" alt="" class="wp-image-77"/><figcaption><span class="has-inline-color has-white-color">"Novel Coronavirus SARS-CoV-2" by NIAD is licensed under CC BY 2.0</span></figcaption></figure>
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:image {"align":"full","id":77,"sizeSlug":"large","linkDestination":"none","style":{"color":{"duotone":["#000000","#ffffff"]}}} -->
+<figure class="wp-block-image alignfull size-large"><img src="http://localhost:8080/wp-content/uploads/2021/10/sars-1024x831.jpeg" alt="" class="wp-image-77"/><figcaption>“Novel Coronavirus SARS-CoV-2” by NIAD is licensed under CC BY 2.0</figcaption></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 
-<!-- wp:column {"verticalAlignment":"bottom"} -->
-<div class="wp-block-column is-vertically-aligned-bottom"><!-- wp:image {"align":"full","id":78,"sizeSlug":"full","linkDestination":"none","style":{"color":{"duotone":["#000000","#ffffff"]}}} -->
-<figure class="wp-block-image alignfull size-full"><img src="http://localhost:8080/wp-content/uploads/2021/10/kabuki-fan.png" alt="" class="wp-image-78"/><figcaption><span class="has-inline-color has-white-color">"Children kabuki theater in Nagahama (warrior Kumagai, 12 y.o)" by lensonjapan is licensed under CC BY 2.0</span></figcaption></figure>
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:image {"align":"full","id":78,"sizeSlug":"full","linkDestination":"none","style":{"color":{"duotone":["#000000","#ffffff"]}}} -->
+<figure class="wp-block-image alignfull size-full"><img src="http://localhost:8080/wp-content/uploads/2021/10/kabuki-fan.png" alt="" class="wp-image-78"/><figcaption>“Children kabuki theater in Nagahama (warrior Kumagai, 12 y.o)” by lensonjapan is licensed under CC BY 2.0</figcaption></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>
-<!-- /wp:column --></div>
-<!-- /wp:columns -->
+<!-- /wp:group -->
 
-<!-- wp:columns {"verticalAlignment":"bottom"} -->
-<div class="wp-block-columns are-vertically-aligned-bottom"><!-- wp:column {"verticalAlignment":"bottom"} -->
+<!-- wp:columns {"verticalAlignment":"bottom","align":"full"} -->
+<div class="wp-block-columns alignfull are-vertically-aligned-bottom"><!-- wp:column {"verticalAlignment":"bottom"} -->
 <div class="wp-block-column is-vertically-aligned-bottom"><!-- wp:image {"align":"center","id":104,"sizeSlug":"full","linkDestination":"none"} -->
 <div class="wp-block-image"><figure class="aligncenter size-full"><img src="http://localhost:8080/wp-content/uploads/2021/10/wikipedia-logo_1.png" alt="" class="wp-image-104"/></figure></div>
 <!-- /wp:image -->
 
-<!-- wp:paragraph {"align":"center","textColor":"black"} -->
-<p class="has-text-align-center has-black-color has-text-color"><meta http-equiv="content-type" content="text/html; charset=utf-8">Everyone of Wikipedia's 55 million + articles are shared openly and freely using a CC license.</p>
+<!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center">Everyone of Wikipedia’s 55 million + articles are shared openly and freely using a CC license.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"align":"center","textColor":"black","fontSize":"h1"} -->
-<p class="has-text-align-center has-black-color has-text-color has-h-1-font-size"><strong>55+ MILLION ARTICLES</strong></p>
+<!-- wp:paragraph {"align":"center","textColor":"black","fontSize":"large"} -->
+<p class="has-text-align-center has-black-color has-text-color has-large-font-size"><strong>55+ MILLION ARTICLES</strong></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
@@ -139,12 +133,12 @@
 <div class="wp-block-image"><figure class="aligncenter size-full"><img src="http://localhost:8080/wp-content/uploads/2021/10/the-met.png" alt="" class="wp-image-98"/></figure></div>
 <!-- /wp:image -->
 
-<!-- wp:paragraph {"align":"center","textColor":"black"} -->
-<p class="has-text-align-center has-black-color has-text-color"><meta http-equiv="content-type" content="text/html; charset=utf-8">Everyone of Wikipedia's 55 million + articles are shared openly and freely using a CC license.</p>
+<!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center">Everyone of Wikipedia’s 55 million + articles are shared openly and freely using a CC license.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"align":"center","fontSize":"h1"} -->
-<p class="has-text-align-center has-h-1-font-size"><strong>400,000+ IMAGES</strong></p>
+<!-- wp:paragraph {"align":"center","textColor":"black","fontSize":"large"} -->
+<p class="has-text-align-center has-black-color has-text-color has-large-font-size"><strong>400,000+ IMAGES</strong></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
@@ -153,36 +147,26 @@
 <div class="wp-block-image"><figure class="aligncenter size-full"><img src="http://localhost:8080/wp-content/uploads/2021/10/khan-acad.jpg" alt="" class="wp-image-100"/></figure></div>
 <!-- /wp:image -->
 
-<!-- wp:paragraph {"align":"center","textColor":"black"} -->
-<p class="has-text-align-center has-black-color has-text-color"><meta http-equiv="content-type" content="text/html; charset=utf-8">Everyone of Wikipedia's 55 million + articles are shared openly and freely using a CC license.</p>
+<!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center">Everyone of Wikipedia’s 55 million + articles are shared openly and freely using a CC license.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"align":"center","fontSize":"h1"} -->
-<p class="has-text-align-center has-h-1-font-size"><strong>100,000+ LESSONS</strong></p>
+<!-- wp:paragraph {"align":"center","textColor":"black","fontSize":"large"} -->
+<p class="has-text-align-center has-black-color has-text-color has-large-font-size"><strong>100,000+ LESSONS</strong></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
-<!-- wp:group -->
-<div class="wp-block-group"><!-- wp:columns {"backgroundColor":"gold"} -->
-<div class="wp-block-columns has-gold-background-color has-background"><!-- wp:column {"width":"100%"} -->
-<div class="wp-block-column" style="flex-basis:100%"><!-- wp:group {"align":"full","backgroundColor":"gold"} -->
-<div class="wp-block-group alignfull has-gold-background-color has-background"><!-- wp:heading {"textColor":"dark-slate-gray","fontSize":"h1"} -->
-<h2 class="has-dark-slate-gray-color has-text-color has-h-1-font-size">CREATING A BRIGHTER FUTURE THROUGH BETTER, MORE ETHICAL SHARING</h2>
+<!-- wp:group {"backgroundColor":"gold"} -->
+<div class="wp-block-group has-gold-background-color has-background"><!-- wp:heading {"fontSize":"huge"} -->
+<h2 class="has-huge-font-size">CREATING A BRIGHTER FUTURE THROUGH BETTER, MORE ETHICAL SHARING</h2>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"textColor":"dark-slate-gray","fontSize":"body-normal"} -->
-<p class="has-dark-slate-gray-color has-text-color has-body-normal-font-size">New challenges to open sharing are emerging. That's why we are promoting ethical, inclusive, and purposeful sharing that serves the public interest, guided by our values of agile leadership, global inclusivity, and informed intention.</p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:group -->
-
-<!-- wp:spacer -->
-<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer -->
+<!-- wp:paragraph {"textColor":"black","fontSize":"medium"} -->
+<p class="has-black-color has-text-color has-medium-font-size">New challenges to open sharing are emerging. That’s why we are promoting ethical, inclusive, and purposeful sharing that serves the public interest, guided by our values of agile leadership, global inclusivity, and informed intention.</p>
+<!-- /wp:paragraph -->
 
 <!-- wp:columns -->
-<div class="wp-block-columns"><!-- wp:column -->
-<div class="wp-block-column"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"align":"full","id":294,"sizeSlug":"full","linkDestination":"none"} -->
 <figure class="wp-block-image alignfull size-full"><img src="http://localhost:8080/wp-content/uploads/2021/11/h2.png" alt="" class="wp-image-294"/></figure>
@@ -190,24 +174,24 @@
 <!-- /wp:column -->
 
 <!-- wp:column -->
-<div class="wp-block-column"><!-- wp:heading {"textColor":"black"} -->
-<h2 class="has-black-color has-text-color">ADVOCACY</h2>
+<div class="wp-block-column"><!-- wp:heading -->
+<h2>ADVOCACY</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"black"} -->
 <p class="has-black-color has-text-color">Together with the Creative Commons Global Network and Chapters, we’re<br>shaping the global open ecosystem in support of open sharing that is impactful, generative, equitable and resilient.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"textColor":"black","fontSize":"h3"} -->
-<h2 class="has-black-color has-text-color has-h-3-font-size">INNOVATION</h2>
+<!-- wp:heading -->
+<h2>INNOVATION</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"black"} -->
 <p class="has-black-color has-text-color">Together with the Creative Commons Global Network and Chapters, we’re<br>shaping the global open ecosystem in support of open sharing that is impactful, generative, equitable and resilient.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"textColor":"black"} -->
-<h2 class="has-black-color has-text-color">CAPACITY BUILDING</h2>
+<!-- wp:heading -->
+<h2>CAPACITY BUILDING</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"black"} -->
@@ -215,20 +199,11 @@
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>
-<!-- /wp:column --></div>
-<!-- /wp:columns --></div>
-<!-- /wp:column --></div>
-<!-- /wp:columns --></div>
 <!-- /wp:group -->
 
-<!-- wp:group -->
-<div class="wp-block-group"><!-- wp:columns -->
+<!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column -->
-<div class="wp-block-column"><!-- wp:heading -->
-<h2>LATEST NEWS</h2>
-<!-- /wp:heading -->
-
-<!-- wp:latest-posts {"displayAuthor":true,"displayPostDate":true,"displayFeaturedImage":true,"addLinkToFeaturedImage":true} /--></div>
+<div class="wp-block-column"><!-- wp:latest-posts {"displayAuthor":true,"displayPostDate":true,"displayFeaturedImage":true,"addLinkToFeaturedImage":true} /--></div>
 <!-- /wp:column -->
 
 <!-- wp:column -->
@@ -236,50 +211,35 @@
 <h2>STAY IN TOUCH</h2>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"textColor":"black"} -->
-<p class="has-black-color has-text-color">Be the first to learn about events, special announcements, and<br>updates by subscribing to our newsletter.</p>
+<!-- wp:paragraph -->
+<p>Be the first to learn about events, special announcements, and<br>updates by subscribing to our newsletter.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
-<!-- /wp:columns --></div>
-<!-- /wp:group -->
+<!-- /wp:columns -->
 
-<!-- wp:columns -->
-<div class="wp-block-columns"><!-- wp:column {"backgroundColor":"soft-tomato"} -->
-<div class="wp-block-column has-soft-tomato-background-color has-background"><!-- wp:spacer {"height":52} -->
-<div style="height:52px" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer -->
-
-<!-- wp:heading {"textAlign":"center","textColor":"black"} -->
-<h2 class="has-text-align-center has-black-color has-text-color">WE RELY ON INDIVIDUAL DONORS TO FUND OUR WORK</h2>
+<!-- wp:group {"align":"full","backgroundColor":"soft-tomato"} -->
+<div class="wp-block-group alignfull has-soft-tomato-background-color has-background"><!-- wp:heading {"textAlign":"center"} -->
+<h2 class="has-text-align-center">WE RELY ON INDIVIDUAL DONORS TO FUND OUR WORK</h2>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"align":"center","textColor":"black"} -->
-<p class="has-text-align-center has-black-color has-text-color">Every donation helps strengthen the open movement, powering open access and innovation everywhere.</p>
+<!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center">Every donation helps strengthen the open movement, powering open access and innovation everywhere.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:spacer {"height":19} -->
-<div style="height:19px" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer -->
-
-<!-- wp:buttons {"contentJustification":"center"} -->
-<div class="wp-block-buttons is-content-justification-center"><!-- wp:button {"backgroundColor":"tomato","width":25,"style":{"border":{"radius":5}},"className":"is-style-fill"} -->
-<div class="wp-block-button has-custom-width wp-block-button__width-25 is-style-fill"><a class="wp-block-button__link has-tomato-background-color has-background" style="border-radius:5px">DONATE NOW</a></div>
+<!-- wp:buttons {"contentJustification":"center","align":"full"} -->
+<div class="wp-block-buttons alignfull is-content-justification-center"><!-- wp:button {"backgroundColor":"tomato","textColor":"white","style":{"border":{"radius":5}},"className":"is-style-fill"} -->
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-white-color has-tomato-background-color has-text-color has-background" style="border-radius:5px">DONATE NOW</a></div>
 <!-- /wp:button --></div>
-<!-- /wp:buttons -->
-
-<!-- wp:spacer {"height":53} -->
-<div style="height:53px" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer --></div>
-<!-- /wp:column --></div>
-<!-- /wp:columns --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:group --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>5</wp:post_id>
 		<wp:post_date><![CDATA[2021-10-27 16:22:49]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-10-27 16:22:49]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2021-11-02 10:31:13]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2021-11-02 10:31:13]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2021-11-02 13:01:41]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-11-02 13:01:41]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[create-your-website-with-blocks]]></wp:post_name>
