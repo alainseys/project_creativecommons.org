@@ -35,6 +35,14 @@ Alternatively, you can initialize the submodules when you clone the repository w
 git clone --recursive
 ```
 
+### Updating Git submodules
+
+The Git submodule projects are under active development. When the submodule code changes, we can update our project to track the latest changes using the following command.
+
+```sh
+git submodule update --remote --merge
+```
+
 ## Environment variables
 
 There are several optional environment variables used in the `docker-compose.yml` file. If you need, you can  copy the `.env.example` to `.env` and override the variables. Otherwise, the defaults should work fine.
