@@ -52,6 +52,15 @@ services:
     networks:
       - backend
 
+  composer:
+    image: composer/composer
+    container_name: cc-base-composer
+    working_dir: /var/www/html/wp-content/plugins/wp-plugin-creativecommons-website/
+    command: "install"
+    restart: "no"
+    volumes:
+      - ./wp-plugin-creativecommons-website/:/var/www/html/wp-content/plugins/wp-plugin-creativecommons-website
+
 volumes:
   db_data:
 
