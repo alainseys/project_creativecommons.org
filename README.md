@@ -35,6 +35,65 @@ Infrastructure Management is handled by:
 - [creativecommons/sre-salt-prime](https://github.com/creativecommons/sre-salt-prime/): Site Reliability Engineering / DevOps SaltStack configuration files
 
 
+## Legal Tools Data Repository
+
+The [creativecommons/cc-licenses-data][repodata] project repository should be
+cloned into a directory adjacent to this one:
+```
+PARENT_DIR
+├── project_creativecommons.org
+└── cc-licenses-data
+```
+
+A sibling directory is used instead of a git submodule / child directory do to
+the high rate of change the data repository is currently experiencing.
+
+[repodata]:https://github.com/creativecommons/cc-licenses-data
+
+
+## Development
+
+1. Initial Setup
+   1. Ensure the [Legal Tools Data Repository](#legal-tools-data-repository),
+      above,  is in place
+   2. Update git submodules
+        ```
+        git submodule update --init --recursive
+        ```
+   3. Install Docker ([Install Docker Engine | Docker
+      Documentation][installdockerengine]) and Docker Compose ([Install Docker
+      Compose | Docker Documentation][installdockercompose])
+   4. Build the containers
+        ```
+        docker-compose build
+        ```
+2. Run the containers
+    ```
+    docker-compose up
+    ```
+
+The commands above will create a variety of docker services:
+1. **dispatch** ([127.0.0.1:8000](http://127.0.0.1:8000/))
+   1. **legaltools** (also available directly on port `8001`)
+   2. **wordpress** (also available directly on port `8002`)
+      1. **database** (also available directly on port `3306`)
+      2. **phpmyadmin** ([127.0.0.1:8003](http://127.0.0.1:8003/))
+      3. **composer**
+
+[installdockerengine]: https://docs.docker.com/engine/install/
+[installdockercompose]: https://docs.docker.com/compose/install/
+
+
+### Tooling
+
+- Docker
+  - [Dockerfile reference | Docker Documentation][dockerfile]
+  - [Compose file version 3 reference | Docker Documentation][dockercompose3]
+
+[dockerfile]: https://docs.docker.com/engine/reference/builder/
+[dockercompose3]: https://docs.docker.com/compose/compose-file/compose-file-v3/
+
+
 ## Code of Conduct
 
 [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md):

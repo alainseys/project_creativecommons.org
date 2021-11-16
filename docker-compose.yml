@@ -1,11 +1,45 @@
 version: "3"
 
 services:
+
+  dispatch:
+    # dispach also serves misc content
+    image: nginx
+    container_name: project_creativecommons-dispatch
+    depends_on:
+      - legaltools
+      - wordpress
+    networks:
+      - backend
+    ports:
+      - "8000:80"
+    restart: always
+    volumes:
+      # config
+      - ./config/dispatch_nginx:/etc/nginx/conf.d:ro
+      # content (misc)
+      - ./faq/faq:/usr/share/nginx/html/faq:ro
+      - ./mp/docs:/usr/share/nginx/html/platform/toolkit:ro
+
+  legaltools:
+    image: nginx
+    container_name: project_creativecommons-legaltools
+    networks:
+      - backend
+    ports:
+      - "8001:80"
+    restart: always
+    volumes:
+      # config
+      - ../cc-licenses-data/config/:/etc/nginx/conf.d:ro
+      # content
+      - ../cc-licenses-data/docs/:/usr/share/nginx/html:ro
+
   wordpress:
-    image: wordpress:latest # https://hub.docker.com/_/wordpress/
+    image: wordpress:latest  # https://hub.docker.com/_/wordpress/
     container_name: project_creativecommons-wordpress
     ports:
-      - 8080:80
+      - "8002:80"
     volumes:
       #- ./config/php.conf.ini:/usr/local/etc/php/conf.d/conf.ini
       # Full wordpress project
@@ -24,6 +58,7 @@ services:
       - database
     networks:
       - backend
+
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
     container_name: project_creativecommons-phpmyadmin
@@ -32,16 +67,17 @@ services:
       PMA_PORT: 3306
       MYSQL_ROOT_PASSWORD: "${DB_ROOT_PASSWORD:-db_password}"
     ports:
-      - 8081:80
+      - "8003:80"
     networks:
       - backend
+
   database:
     build:
       # change db if required in .env file
       context: ./database/${DATABASE:-mariadb}
     container_name: project_creativecommons-database
     ports:
-      - 3306:3306
+      - "3306:3306"
     volumes:
       #- ./wp-data:/docker-entrypoint-initdb.d
       - db_data:/var/lib/mysql
@@ -61,8 +97,10 @@ services:
     volumes:
       - ./wp-plugin-creativecommons-website/:/var/www/html/wp-content/plugins/wp-plugin-creativecommons-website
 
+
 volumes:
   db_data:
+
 
 networks:
   backend:
