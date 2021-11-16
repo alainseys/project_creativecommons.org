@@ -11,31 +11,65 @@ Project to manage technical implementation of [creativecommons.org](https://crea
 ## Status
 
 1. Website: **Pre-release**
-   - (For current/legacy repositories, see: [creativecommons/creativecommons.org](https://github.com/creativecommons/creativecommons.org): Website parent project, legalcode and translations, and GitHub Issues for public help and support)
+   - (For current/legacy repositories, see:
+     [creativecommons/creativecommons.org][ccorgrepo]: Website parent project,
+     legalcode and translations, and GitHub Issues for public help and support)
+
+[ccorgrepo]: https://github.com/creativecommons/creativecommons.org
 
 
 ## Overview
 
-This repository manages the primary website ([creativecommons.org](https://creativecommons.org/)) project. The primary website consists of the following components and repositries:
+This repository manages the primary website
+([creativecommons.org](https://creativecommons.org/)) project. The primary
+website consists of the following components and repositries:
 1. WordPress
-   - [creativecommons/creativecommons-base](https://github.com/creativecommons/creativecommons-base): Base WordPress theme for Creative Commons websites.
-     - [creativecommons/wp-theme-creativecommons.org](https://github.com/creativecommons/wp-theme-creativecommons.org): New WordPress theme for Creative Commons website
+   - [creativecommons/creativecommons-base][ccbase]: Base WordPress theme for
+     Creative Commons websites.
+     - [creativecommons/wp-theme-creativecommons.org][wpthemeccorg]: New
+       WordPress theme for Creative Commons website
+   - URI Paths:
+     - *default* (any URIs that don't match those listed, below)
 2. Legal Tools
-   - [creativecommons/chooser](https://github.com/creativecommons/chooser/): [WIP] The new and improved CC license selection tool.
-   - [creativecommons/cc-licenses](https://github.com/creativecommons/cc-licenses): New license infrastructure for Creative Commons
-   - [creativecommons/cc-licenses-data](https://github.com/creativecommons/cc-licenses-data): CC Licenses data (static HTML, language files, etc.)
+   - [creativecommons/chooser](https://github.com/creativecommons/chooser/):
+     [WIP] The new and improved CC license selection tool.
+   - [creativecommons/cc-licenses][legaltoolsapp] New license infrastructure
+     for Creative Commons (generates Legal Tools Data)
+   - [creativecommons/cc-licenses-data][legaltoolsdata]: CC Licenses data
+     (static HTML, language files, etc.)
+   - URI Paths:
+     - `/characteristic`
+     - `/choose`
+     - `/licenses`
+     - `/ns`
+     - `/publicdomain`
+     - `/rdf`
+     - `/schema.rdf`
 3. Misc Resources
-   - [creativecommons/faq](https://github.com/creativecommons/faq): Creative Commons FAQ page
-   - [creativecommons/mp](https://github.com/creativecommons/mp): Documentation for CC integration into user-generated content platforms
+   - [creativecommons/faq][faq]: Creative Commons FAQ page
+   - [creativecommons/mp][mp]: Documentation for CC integration into
+     user-generated content platforms
+   - URI Paths:
+     - `/faq`
+     - `/platform/toolkit`
 
 Infrastructure Management is handled by:
-- [creativecommons/sre-salt-prime](https://github.com/creativecommons/sre-salt-prime/): Site Reliability Engineering / DevOps SaltStack configuration files
+- [creativecommons/sre-salt-prime][saltprime]: Site Reliability Engineering /
+  DevOps SaltStack configuration files
+
+[wpthemeccorg]: https://github.com/creativecommons/wp-theme-creativecommons.org
+[ccbase]: https://github.com/creativecommons/creativecommons-base
+[legaltoolsapp]: https://github.com/creativecommons/cc-licenses
+[legaltoolsdata]:https://github.com/creativecommons/cc-licenses-data
+[faq]:https://github.com/creativecommons/faq
+[mp]: https://github.com/creativecommons/mp
+[saltprime]: https://github.com/creativecommons/sre-salt-prime/
 
 
 ## Legal Tools Data Repository
 
-The [creativecommons/cc-licenses-data][repodata] project repository should be
-cloned into a directory adjacent to this one:
+The [creativecommons/cc-licenses-data][legaltoolsdata] project repository
+should be cloned into a directory adjacent to this one:
 ```
 PARENT_DIR
 ├── project_creativecommons.org
@@ -45,7 +79,7 @@ PARENT_DIR
 A sibling directory is used instead of a git submodule / child directory do to
 the high rate of change the data repository is currently experiencing.
 
-[repodata]:https://github.com/creativecommons/cc-licenses-data
+[legaltoolsdata]:https://github.com/creativecommons/cc-licenses-data
 
 
 ## Development
