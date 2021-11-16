@@ -7,6 +7,7 @@ Project to manage technical implementation of [creativecommons.org](https://crea
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/creativecommons/project_creativecommons.org)
 
+
 ## Status
 
 1. Website: **Pre-release**
@@ -46,9 +47,11 @@ Infrastructure Management is handled by:
 [code_of_conduct]:https://creativecommons.github.io/community/code-of-conduct/
 [reporting_guide]:https://creativecommons.github.io/community/code-of-conduct/enforcement/
 
+
 ## License
 
 - [`LICENSE`](LICENSE) (Expat/[MIT][mit] License)
+
 
 ## Contributing
 
