@@ -12,9 +12,6 @@ Project to manage technical implementation of [creativecommons.org](https://crea
 
 1. Website: **Pre-release**
    - (For current/legacy repositories, see: [creativecommons/creativecommons.org](https://github.com/creativecommons/creativecommons.org): Website parent project, legalcode and translations, and GitHub Issues for public help and support)
-2. Repository:
-   - Legal Tools not yet incorporated into this project's docker configuration
-   - Misc Resources not yet incorporated into this project's docker configuration
 
 
 ## Overview
