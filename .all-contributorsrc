@@ -25,7 +25,8 @@
         "review",
         "doc",
         "code",
-        "infra"
+        "infra",
+        "bug"
       ]
     },
     {
