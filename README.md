@@ -7,31 +7,122 @@ Project to manage technical implementation of [creativecommons.org](https://crea
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/creativecommons/project_creativecommons.org)
 
+
 ## Status
 
 1. Website: **Pre-release**
-   - (For current/legacy repositories, see: [creativecommons/creativecommons.org](https://github.com/creativecommons/creativecommons.org): Website parent project, legalcode and translations, and GitHub Issues for public help and support)
-2. Repository:
-   - Legal Tools not yet incorporated into this project's docker configuration
-   - Misc Resources not yet incorporated into this project's docker configuration
+   - (For current/legacy repositories, see:
+     [creativecommons/creativecommons.org][ccorgrepo]: Website parent project,
+     legalcode and translations, and GitHub Issues for public help and support)
+
+[ccorgrepo]: https://github.com/creativecommons/creativecommons.org
 
 
 ## Overview
 
-This repository manages the primary website ([creativecommons.org](https://creativecommons.org/)) project. The primary website consists of the following components and repositries:
+This repository manages the primary website
+([creativecommons.org](https://creativecommons.org/)) project. The primary
+website consists of the following components and repositries:
 1. WordPress
-   - [creativecommons/creativecommons-base](https://github.com/creativecommons/creativecommons-base): Base WordPress theme for Creative Commons websites.
-     - [creativecommons/wp-theme-creativecommons.org](https://github.com/creativecommons/wp-theme-creativecommons.org): New WordPress theme for Creative Commons website
+   - [creativecommons/creativecommons-base][ccbase]: Base WordPress theme for
+     Creative Commons websites.
+     - [creativecommons/wp-theme-creativecommons.org][wpthemeccorg]: New
+       WordPress theme for Creative Commons website
+   - URI Paths:
+     - *default* (any URIs that don't match those listed, below)
 2. Legal Tools
-   - [creativecommons/chooser](https://github.com/creativecommons/chooser/): [WIP] The new and improved CC license selection tool.
-   - [creativecommons/cc-licenses](https://github.com/creativecommons/cc-licenses): New license infrastructure for Creative Commons
-   - [creativecommons/cc-licenses-data](https://github.com/creativecommons/cc-licenses-data): CC Licenses data (static HTML, language files, etc.)
+   - [creativecommons/chooser](https://github.com/creativecommons/chooser/):
+     [WIP] The new and improved CC license selection tool.
+   - [creativecommons/cc-licenses][legaltoolsapp] New license infrastructure
+     for Creative Commons (generates Legal Tools Data)
+   - [creativecommons/cc-licenses-data][legaltoolsdata]: CC Licenses data
+     (static HTML, language files, etc.)
+   - URI Paths:
+     - `/characteristic`
+     - `/choose`
+     - `/licenses`
+     - `/ns`
+     - `/publicdomain`
+     - `/rdf`
+     - `/schema.rdf`
 3. Misc Resources
-   - [creativecommons/faq](https://github.com/creativecommons/faq): Creative Commons FAQ page
-   - [creativecommons/mp](https://github.com/creativecommons/mp): Documentation for CC integration into user-generated content platforms
+   - [creativecommons/faq][faq]: Creative Commons FAQ page
+   - [creativecommons/mp][mp]: Documentation for CC integration into
+     user-generated content platforms
+   - URI Paths:
+     - `/faq`
+     - `/platform/toolkit`
 
 Infrastructure Management is handled by:
-- [creativecommons/sre-salt-prime](https://github.com/creativecommons/sre-salt-prime/): Site Reliability Engineering / DevOps SaltStack configuration files
+- [creativecommons/sre-salt-prime][saltprime]: Site Reliability Engineering /
+  DevOps SaltStack configuration files
+
+[wpthemeccorg]: https://github.com/creativecommons/wp-theme-creativecommons.org
+[ccbase]: https://github.com/creativecommons/creativecommons-base
+[legaltoolsapp]: https://github.com/creativecommons/cc-licenses
+[legaltoolsdata]:https://github.com/creativecommons/cc-licenses-data
+[faq]:https://github.com/creativecommons/faq
+[mp]: https://github.com/creativecommons/mp
+[saltprime]: https://github.com/creativecommons/sre-salt-prime/
+
+
+## Legal Tools Data Repository
+
+The [creativecommons/cc-licenses-data][legaltoolsdata] project repository
+should be cloned into a directory adjacent to this one:
+```
+PARENT_DIR
+├── project_creativecommons.org
+└── cc-licenses-data
+```
+
+A sibling directory is used instead of a git submodule / child directory do to
+the high rate of change the data repository is currently experiencing.
+
+[legaltoolsdata]:https://github.com/creativecommons/cc-licenses-data
+
+
+## Development
+
+1. Initial Setup
+   1. Ensure the [Legal Tools Data Repository](#legal-tools-data-repository),
+      above,  is in place
+   2. Update git submodules
+        ```
+        git submodule update --init --recursive
+        ```
+   3. Install Docker ([Install Docker Engine | Docker
+      Documentation][installdockerengine]) and Docker Compose ([Install Docker
+      Compose | Docker Documentation][installdockercompose])
+   4. Build the containers
+        ```
+        docker-compose build
+        ```
+2. Run the containers
+    ```
+    docker-compose up
+    ```
+
+The commands above will create a variety of docker services:
+1. **dispatch** ([127.0.0.1:8000](http://127.0.0.1:8000/))
+   1. **legaltools** (also available directly on port `8001`)
+   2. **wordpress** (also available directly on port `8002`)
+      1. **database** (also available directly on port `3306`)
+      2. **phpmyadmin** ([127.0.0.1:8003](http://127.0.0.1:8003/))
+      3. **composer**
+
+[installdockerengine]: https://docs.docker.com/engine/install/
+[installdockercompose]: https://docs.docker.com/compose/install/
+
+
+### Tooling
+
+- Docker
+  - [Dockerfile reference | Docker Documentation][dockerfile]
+  - [Compose file version 3 reference | Docker Documentation][dockercompose3]
+
+[dockerfile]: https://docs.docker.com/engine/reference/builder/
+[dockercompose3]: https://docs.docker.com/compose/compose-file/compose-file-v3/
 
 
 ## Code of Conduct
@@ -46,9 +137,11 @@ Infrastructure Management is handled by:
 [code_of_conduct]:https://creativecommons.github.io/community/code-of-conduct/
 [reporting_guide]:https://creativecommons.github.io/community/code-of-conduct/enforcement/
 
+
 ## License
 
 - [`LICENSE`](LICENSE) (Expat/[MIT][mit] License)
+
 
 ## Contributing
 
