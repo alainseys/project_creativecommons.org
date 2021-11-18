@@ -23,7 +23,9 @@
       "profile": "https://zehta.me/",
       "contributions": [
         "review",
-        "doc"
+        "doc",
+        "code",
+        "infra"
       ]
     },
     {
