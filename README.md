@@ -32,9 +32,10 @@ website consists of the following components and repositries:
    - URI Paths:
      - *default* (any URIs that don't match those listed, below)
 2. Chooser
-   - ~~[Creativecommons/chooser](https://github.com/creativecommons/chooser/):
-     [WIP] The new and improved CC license selection tool.~~
-     - #147
+   - ~~[Creativecommons/chooser][chooser]: [WIP] The new and improved CC
+     license selection tool.~~
+     - [[Bug] Chooser has not yet been added to Docker Compose configuration ·
+       Issue #147][issue147]
 3. Legal Tools
    - [creativecommons/cc-legal-tools-app][legaltoolsapp] New license
      infrastructure for Creative Commons (generates Legal Tools Data)
@@ -61,6 +62,8 @@ Infrastructure Management is handled by:
   DevOps SaltStack configuration files
 
 [wpthemeccorg]: https://github.com/creativecommons/wp-theme-creativecommons.org
+[chooser]: https://github.com/creativecommons/chooser/
+[issue147]: https://github.com/creativecommons/project_creativecommons.org/issues/147
 [ccbase]: https://github.com/creativecommons/creativecommons-base
 [legaltoolsapp]: https://github.com/creativecommons/cc-legal-tools-app
 [legaltoolsdata]:https://github.com/creativecommons/cc-legal-tools-data
