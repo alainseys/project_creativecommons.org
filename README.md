@@ -1,6 +1,7 @@
 # project_creativecommons.org
 
-Project to manage technical implementation of [creativecommons.org](https://creativecommons.org/) (primary website)
+Project to manage technical implementation of
+[creativecommons.org](https://creativecommons.org/) (primary website)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors-)
@@ -30,12 +31,14 @@ website consists of the following components and repositries:
        WordPress theme for Creative Commons website
    - URI Paths:
      - *default* (any URIs that don't match those listed, below)
-2. Legal Tools
+2. Chooser
    - [creativecommons/chooser](https://github.com/creativecommons/chooser/):
      [WIP] The new and improved CC license selection tool.
-   - [creativecommons/cc-licenses][legaltoolsapp] New license infrastructure
-     for Creative Commons (generates Legal Tools Data)
-   - [creativecommons/cc-licenses-data][legaltoolsdata]: CC Licenses data
+     (pending: #147)
+3. Legal Tools
+   - [creativecommons/cc-legal-tools-app][legaltoolsapp] New license
+     infrastructure for Creative Commons (generates Legal Tools Data)
+   - [creativecommons/cc-legal-tools-data][legaltoolsdata]: CC Licenses data
      (static HTML, language files, etc.)
    - URI Paths:
      - `/characteristic`
@@ -59,70 +62,16 @@ Infrastructure Management is handled by:
 
 [wpthemeccorg]: https://github.com/creativecommons/wp-theme-creativecommons.org
 [ccbase]: https://github.com/creativecommons/creativecommons-base
-[legaltoolsapp]: https://github.com/creativecommons/cc-licenses
-[legaltoolsdata]:https://github.com/creativecommons/cc-licenses-data
+[legaltoolsapp]: https://github.com/creativecommons/cc-legal-tools-app
+[legaltoolsdata]:https://github.com/creativecommons/cc-legal-tools-data
 [faq]:https://github.com/creativecommons/faq
 [mp]: https://github.com/creativecommons/mp
 [saltprime]: https://github.com/creativecommons/sre-salt-prime/
 
 
-## Legal Tools Data Repository
-
-The [creativecommons/cc-licenses-data][legaltoolsdata] project repository
-should be cloned into a directory adjacent to this one:
-```
-PARENT_DIR
-├── project_creativecommons.org
-└── cc-licenses-data
-```
-
-A sibling directory is used instead of a git submodule / child directory do to
-the high rate of change the data repository is currently experiencing.
-
-[legaltoolsdata]:https://github.com/creativecommons/cc-licenses-data
-
-
 ## Development
 
-1. Initial Setup
-   1. Ensure the [Legal Tools Data Repository](#legal-tools-data-repository),
-      above,  is in place
-   2. Update git submodules
-        ```
-        git submodule update --init --recursive
-        ```
-   3. Install Docker ([Install Docker Engine | Docker
-      Documentation][installdockerengine]) and Docker Compose ([Install Docker
-      Compose | Docker Documentation][installdockercompose])
-   4. Build the containers
-        ```
-        docker-compose build
-        ```
-2. Run the containers
-    ```
-    docker-compose up
-    ```
-
-The commands above will create a variety of docker services:
-1. **dispatch** ([127.0.0.1:8000](http://127.0.0.1:8000/))
-   1. **legaltools** (also available directly on port `8001`)
-   2. **wordpress** (also available directly on port `8002`)
-      1. **database** (also available directly on port `3306`)
-      2. **phpmyadmin** ([127.0.0.1:8003](http://127.0.0.1:8003/))
-      3. **composer**
-
-[installdockerengine]: https://docs.docker.com/engine/install/
-[installdockercompose]: https://docs.docker.com/compose/install/
-
-
-### Tooling
-
-- Docker
-  - [Dockerfile reference | Docker Documentation][dockerfile]
-  - [Compose file version 3 reference | Docker Documentation][dockercompose3]
-
-[dockerfile]: https://docs.docker.com/engine/reference/builder/
-[dockercompose3]: https://docs.docker.com/compose/compose-file/compose-file-v3/
+See [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
 
 ## Code of Conduct
