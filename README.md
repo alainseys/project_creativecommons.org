@@ -32,9 +32,9 @@ website consists of the following components and repositries:
    - URI Paths:
      - *default* (any URIs that don't match those listed, below)
 2. Chooser
-   - [creativecommons/chooser](https://github.com/creativecommons/chooser/):
-     [WIP] The new and improved CC license selection tool.
-     (pending: #147)
+   - ~~[Creativecommons/chooser](https://github.com/creativecommons/chooser/):
+     [WIP] The new and improved CC license selection tool.~~
+     - #147
 3. Legal Tools
    - [creativecommons/cc-legal-tools-app][legaltoolsapp] New license
      infrastructure for Creative Commons (generates Legal Tools Data)
