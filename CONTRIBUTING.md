@@ -8,22 +8,6 @@ There are many ways to contribute to this project, such as testing, design, and 
 This section provides information for people who are interested in contributing code.
 
 
-## Legal Tools Data Repository
-
-The [creativecommons/cc-legal-tools-data][legaltoolsdata] project repository
-should be cloned into a directory adjacent to this one:
-```
-PARENT_DIR
-├── project_creativecommons.org
-└── cc-legal-tools-data
-```
-
-A sibling directory is used instead of a git submodule / child directory do to
-the high rate of change the data repository is currently experiencing.
-
-[legaltoolsdata]:https://github.com/creativecommons/cc-legal-tools-dat
-
-
 ### Install Docker
 
 Install Docker ([Install Docker Engine | Docker
@@ -95,6 +79,21 @@ If you change the value of the `DATABASE` variable at any time during developmen
     - `docker volume rm <volume-id>`
 3. rebuild the docker image
     - `docker-compose up --build -d`
+
+
+### CC Legal Tools development
+
+If you are actively developing the CC Legal Tools, your experience may be
+improved by replacing the submodule with a symlink (:warning: be careful not to
+commit this change):
+```
+rm -rf cc-legal-tools-data; ln -s ../cc-legal-tools-data .
+```
+
+You can revert the change with:
+```
+rm cc-legal-tools-data; git restore cc-legal-tools-data; git submodule update --init
+```
 
 
 ### Run the development server

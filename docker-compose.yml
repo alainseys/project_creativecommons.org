@@ -31,9 +31,9 @@ services:
     restart: always
     volumes:
       # config
-      - ../cc-legal-tools-data/config/:/etc/nginx/conf.d:ro
+      - ./cc-legal-tools-data/config/:/etc/nginx/conf.d:ro
       # content
-      - ../cc-legal-tools-data/docs/:/usr/share/nginx/html:ro
+      - ./cc-legal-tools-data/docs/:/usr/share/nginx/html:ro
 
   wordpress:
     image: wordpress:latest  # https://hub.docker.com/_/wordpress/

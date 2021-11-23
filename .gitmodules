@@ -16,3 +16,6 @@
 [submodule "mp"]
 	path = mp
 	url = https://github.com/creativecommons/mp
+[submodule "cc-legal-tools-data"]
+	path = cc-legal-tools-data
+	url = https://github.com/creativecommons/cc-legal-tools-data
