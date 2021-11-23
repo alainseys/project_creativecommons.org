@@ -130,20 +130,26 @@ The commands above will create a variety of docker services:
 
 ### Install WordPres (first-time)
 
-If you are starting the WordPress service for the first time, you will see the WordPress installation wizard. Complete the installation process and make note of your username and password so that you can log in (below).
+If you are starting the WordPress service for the first time, you will see the
+WordPress installation wizard:
+- [127.0.0.1:8000/wp-admin/install.php](http://127.0.0.1:8000/wp-admin/install.php)
+
+Complete the installation process and make note of your username and password
+so that you can log in (below).
 
 
 ### Log in to WordPress
 
-With the development server running, log in to the local WordPress with the login credentials you created during the WordPress installation.
-
-Note: you will need to visit http://127.0.0.1:8080/wp-login.php
+With the development server running, log in to the local WordPress with the
+login credentials you created during the WordPress installation:
+- [127.0.0.1:8000/wp-login.php](http://127.0.0.1:8000/wp-login.php).
 
 
 ### Access the WordPress admin area
 
-Once you are logged in with your admin user (above), you can access the WordPress admin area:
-- [127.0.0.1:8000/wp-admin/](http://127.0.0.1:8000/wp-admin/) (or directly on **wordpress** host via port 8002)
+Once you are logged in with your admin user (above), you can access the
+WordPress admin area:
+- [127.0.0.1:8000/wp-admin/](http://127.0.0.1:8000/wp-admin/)
 
 
 ### Activate CC theme and plugins
