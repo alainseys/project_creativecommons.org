@@ -81,6 +81,21 @@ If you change the value of the `DATABASE` variable at any time during developmen
     - `docker-compose up --build -d`
 
 
+### CC Legal Tools development
+
+If you are actively developing the CC Legal Tools, your experience may be
+improved by replacing the submodule with a symlink (:warning: be careful not to
+commit this change):
+```
+rm -rf cc-legal-tools-data; ln -s ../cc-legal-tools-data .
+```
+
+You can revert the change with:
+```
+rm cc-legal-tools-data; git restore cc-legal-tools-data; git submodule update --init
+```
+
+
 ### Run the development server
 
 Once you have installed the above development dependencies, you can run the following commands from within this project directory.
