@@ -7,17 +7,50 @@ There are many ways to contribute to this project, such as testing, design, and 
 
 This section provides information for people who are interested in contributing code.
 
-### Development dependencies
 
-Make sure you have installed [Docker](https://docs.docker.com/get-docker/) and `docker-compose` for your operating system prior to following these instructions. Alternatively, you can use the browser-based development environment described below.
+## Legal Tools Data Repository
+
+The [creativecommons/cc-legal-tools-data][legaltoolsdata] project repository
+should be cloned into a directory adjacent to this one:
+```
+PARENT_DIR
+├── project_creativecommons.org
+└── cc-legal-tools-data
+```
+
+A sibling directory is used instead of a git submodule / child directory do to
+the high rate of change the data repository is currently experiencing.
+
+[legaltoolsdata]:https://github.com/creativecommons/cc-legal-tools-dat
+
+
+### Install Docker
+
+Install Docker ([Install Docker Engine | Docker
+Documentation][installdockerengine]) and Docker Compose ([Install Docker
+Compose | Docker Documentation][installdockercompose]).
+
+References:
+- [Dockerfile reference | Docker Documentation][dockerfile]
+- [Compose file version 3 reference | Docker Documentation][dockercompose3]
+
+Alternatively, you can
+use the browser-based development environment described below.
+
+[installdockerengine]: https://docs.docker.com/engine/install/
+[installdockercompose]: https://docs.docker.com/compose/install/
+[dockerfile]: https://docs.docker.com/engine/reference/builder/
+[dockercompose3]: https://docs.docker.com/compose/compose-file/compose-file-v3/
+
 
 ### Browser-based development environment
 
 You may use a browser-based development environment instead of installing Docker and Docker Compose locally. Just click the "Develop with Gitpod" button below to launch a pre-configured development environment. Once the environment opens in your browser, continue with the following sections (skipping sections handled automatically by Gitpod as noted).
 
-**WARNING**: remember to delete your Gitpod workspace when you are done with development each day. Otherwise, you may quickly exceed your open-source Gitpod credits. Be sure to push all desired changes in your Gitpod workspace to GitHub prior to deletion.
+:warning: **WARNING**: remember to delete your Gitpod workspace when you are done with development each day. Otherwise, you may quickly exceed your open-source Gitpod credits. Be sure to push all desired changes in your Gitpod workspace to GitHub prior to deletion.
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/creativecommons/project_creativecommons.org)
+
 
 ### Initialize Git submodules
 
@@ -35,6 +68,7 @@ Alternatively, you can initialize the submodules when you clone the repository w
 git clone --recursive
 ```
 
+
 ### Updating Git submodules
 
 The Git submodule projects are under active development. When the submodule code changes, we can update our project to track the latest changes using the following command.
@@ -43,9 +77,11 @@ The Git submodule projects are under active development. When the submodule code
 git submodule update --remote --merge
 ```
 
+
 ## Environment variables
 
 There are several optional environment variables used in the `docker-compose.yml` file. If you need, you can  copy the `.env.example` to `.env` and override the variables. Otherwise, the defaults should work fine.
+
 
 ### Changing database
 
@@ -60,9 +96,11 @@ If you change the value of the `DATABASE` variable at any time during developmen
 3. rebuild the docker image
     - `docker-compose up --build -d`
 
+
 ### Run the development server
 
 Once you have installed the above development dependencies, you can run the following commands from within this project directory.
+
 
 #### Start the server
 
@@ -72,15 +110,24 @@ Note: this step is handled automatically in the browser-based development enviro
 docker-compose up
 ```
 
+
 #### Stop the server
 
 ```sh
 docker-compose down
 ```
 
-### Access WordPress
 
-After starting the server, you should be able to access WordPress at http://127.0.0.1:8080
+#### Docker services
+
+The commands above will create a variety of docker services:
+1. **dispatch** ([127.0.0.1:8000](http://127.0.0.1:8000/))
+   1. **legaltools** (also available directly on port `8001`)
+   2. **wordpress** (also available directly on port `8002`)
+      1. **database** (also available directly on port `3306`)
+      2. **phpmyadmin** ([127.0.0.1:8003](http://127.0.0.1:8003/))
+      3. **composer**
+
 
 ### Install WordPres (first-time)
 
@@ -97,13 +144,13 @@ Note: you will need to visit http://127.0.0.1:8080/wp-login.php
 ### Access the WordPress admin area
 
 Once you are logged in with your admin user (above), you can access the WordPress admin area:
-
-- http://127.0.0.1:8080/wp-admin/
+- [127.0.0.1:8000/wp-admin/](http://127.0.0.1:8000/wp-admin/) (or directly on **wordpress** host via port 8002)
 
 
 ### Activate CC theme and plugins
 
 From the WordPress admin area, you can activate the Creative Commons WordPress theme and plugins.
+
 
 ### Developing Gutenberg blocks
 
