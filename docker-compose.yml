@@ -18,7 +18,6 @@ services:
       # config
       - ./config/dispatch_nginx:/etc/nginx/conf.d:ro
       # content (misc)
-      - ./faq/faq:/usr/share/nginx/html/faq:ro
       - ./mp/docs:/usr/share/nginx/html/platform/toolkit:ro
 
   legaltools:
@@ -81,13 +80,13 @@ services:
       context: ./database/${DATABASE:-mariadb}
     container_name: project_creativecommons-database
     ports:
-      - "3306:3306"
+      - "3307:3306"
     volumes:
       #- ./wp-data:/docker-entrypoint-initdb.d
       - db_data:/var/lib/mysql
     environment:
       MYSQL_DATABASE: "${DB_NAME:-wordpress_db}"
-      MYSQL_USER: root
+      MYSQL_USER: creative
       MYSQL_ROOT_PASSWORD: "${DB_ROOT_PASSWORD:-db_password}"
     networks:
       - backend
