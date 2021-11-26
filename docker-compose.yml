@@ -80,13 +80,13 @@ services:
       context: ./database/${DATABASE:-mariadb}
     container_name: project_creativecommons-database
     ports:
-      - "3307:3306"
+      - "3306:3306"
     volumes:
       #- ./wp-data:/docker-entrypoint-initdb.d
       - db_data:/var/lib/mysql
     environment:
       MYSQL_DATABASE: "${DB_NAME:-wordpress_db}"
-      MYSQL_USER: creative
+      MYSQL_USER: root
       MYSQL_ROOT_PASSWORD: "${DB_ROOT_PASSWORD:-db_password}"
     networks:
       - backend
