@@ -10,9 +10,6 @@
 [submodule "wp-plugin-creativecommons-website"]
 	path = wp-plugin-creativecommons-website
 	url = https://github.com/creativecommons/wp-plugin-creativecommons-website.git
-[submodule "faq"]
-	path = faq
-	url = https://github.com/creativecommons/faq
 [submodule "mp"]
 	path = mp
 	url = https://github.com/creativecommons/mp
