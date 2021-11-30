@@ -18,7 +18,6 @@ services:
       # config
       - ./config/dispatch_nginx:/etc/nginx/conf.d:ro
       # content (misc)
-      - ./faq/faq:/usr/share/nginx/html/faq:ro
       - ./mp/docs:/usr/share/nginx/html/platform/toolkit:ro
 
   legaltools:
