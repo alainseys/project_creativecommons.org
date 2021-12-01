@@ -49,7 +49,7 @@ website consists of the following components and repositries:
      - `/publicdomain`
      - `/rdf`
      - `/schema.rdf`
-3. Misc Resources
+4. Misc Resources
    - [creativecommons/mp][mp]: Documentation for CC integration into
      user-generated content platforms
    - URI Paths:
