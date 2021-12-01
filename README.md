@@ -31,6 +31,7 @@ website consists of the following components and repositries:
        WordPress theme for Creative Commons website
    - URI Paths:
      - *default* (any URIs that don't match those listed, below)
+     - URLs from content importers (see CONTRIBUTING.md for more details)
 2. Chooser
    - ~~[Creativecommons/chooser][chooser]: [WIP] The new and improved CC
      license selection tool.~~
@@ -50,11 +51,9 @@ website consists of the following components and repositries:
      - `/rdf`
      - `/schema.rdf`
 3. Misc Resources
-   - [creativecommons/faq][faq]: Creative Commons FAQ page
    - [creativecommons/mp][mp]: Documentation for CC integration into
      user-generated content platforms
    - URI Paths:
-     - `/faq`
      - `/platform/toolkit`
 
 Infrastructure Management is handled by:
@@ -67,7 +66,6 @@ Infrastructure Management is handled by:
 [ccbase]: https://github.com/creativecommons/creativecommons-base
 [legaltoolsapp]: https://github.com/creativecommons/cc-legal-tools-app
 [legaltoolsdata]:https://github.com/creativecommons/cc-legal-tools-data
-[faq]:https://github.com/creativecommons/faq
 [mp]: https://github.com/creativecommons/mp
 [saltprime]: https://github.com/creativecommons/sre-salt-prime/
 
