@@ -59,7 +59,7 @@ git submodule update --remote --merge
 
 ## Environment variables
 
-There are several optional environment variables used in the `docker-compose.yml` file. If you need, you can  copy the `.env.example` to `.env` and override the variables. Otherwise, the defaults should work fine.
+There are several optional environment variables used in the `docker-compose.yml` file. If you need, you can copy the `.env.example` to `.env` and override the variables. Otherwise, the defaults should work fine.
 
 ### Changing database
 
@@ -68,11 +68,11 @@ The optional `.env` file may contain a variable called `DATABASE`. The value of 
 If you change the value of the `DATABASE` variable at any time during development, you will need to remove the old database volume in order and rebuild the images to prevent errors.
 
 1. list all Docker volumes to find the relevant volume
-    - `docker volume ls`
+   - `docker volume ls`
 2. remove the volume
-    - `docker volume rm <volume-id>`
+   - `docker volume rm <volume-id>`
 3. rebuild the docker image
-    - `docker-compose up --build -d`
+   - `docker-compose up --build -d`
 
 ### CC Legal Tools development
 
@@ -146,6 +146,12 @@ WordPress admin area:
 ### Activate CC theme and plugins
 
 From the WordPress admin area, you can activate the Creative Commons WordPress theme and plugins.
+
+### Import content
+
+We have prepared some pre-existing content based on the desired page structure for the new Creative Commons website, which is located in the `content-import` folder. The WordPress documentation contains an article describing [how to import/export content](https://wordpress.org/support/article/tools-export-screen/).
+
+Note: some of the content, such as the FAQ, comes from static website(s) that we intend to migrate into the WordPress Gutenberg editor. In the event that the static website changes before we have launched the new creativecommons.org website, we can copy the rendered HTML from the static website and paste it directly into the Gutenberg editor. After copying and pasting the content into Gutenberg, it may be necessary to ensure the content renders correctly and to double check navigation links use relative URLs rather than absolute URLs.
 
 ### Developing Gutenberg blocks
 
