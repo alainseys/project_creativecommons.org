@@ -112,12 +112,10 @@ docker-compose down
 
 The commands above will create a variety of docker services:
 
-1. **dispatch** ([127.0.0.1:8000](http://127.0.0.1:8000/))
-   1. **legaltools** (also available directly on port `8001`)
-   2. **wordpress** (also available directly on port `8002`)
-      1. **database** (also available directly on port `3306`)
-      2. **phpmyadmin** ([127.0.0.1:8003](http://127.0.0.1:8003/))
-      3. **composer**
+1. **wordpress**a ([127.0.0.1:8000](http://127.0.0.1:8000/))
+2. **database** (also available directly on port `3306`)
+3. **phpmyadmin** ([127.0.0.1:8003](http://127.0.0.1:8003/))
+4. **composer**
 
 ### Install WordPres (first-time)
 
