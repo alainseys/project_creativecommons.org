@@ -42,12 +42,12 @@ website consists of the following components and repositories:
      infrastructure for Creative Commons (generates Legal Tools Data)
    - [creativecommons/cc-legal-tools-data][legaltoolsdata]: CC Licenses data
      (static HTML, language files, etc.)
-   - For a list of URI paths, see
+   - For a list of URI paths, see Aliases in
      [`config/wordpress-apache/000-default.conf`][apacheconf]
 4. Platform Toolkit
    - [creativecommons/mp][mp]: Documentation for CC integration into
      user-generated content platforms
-   - For a list of URI paths, see
+   - For a list of URI paths, see Aliases in
      [`config/wordpress-apache/000-default.conf`][apacheconf]
 
 Infrastructure Management is handled by:
