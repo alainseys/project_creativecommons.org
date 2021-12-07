@@ -10,7 +10,7 @@ Project to manage technical implementation of
 
 ## Status
 
-1. Website: **Pre-release**
+1. Website: :warning: **Pre-release**
    - (For current/legacy repositories, see:
      [creativecommons/creativecommons.org][ccorgrepo]: Website parent project,
      legalcode and translations, and GitHub Issues for public help and support)
@@ -21,7 +21,7 @@ Project to manage technical implementation of
 
 This repository manages the primary website
 ([creativecommons.org](https://creativecommons.org/)) project. The primary
-website consists of the following components and repositries:
+website consists of the following components and repositories:
 
 1. WordPress
    - [creativecommons/creativecommons-base][ccbase]: Base WordPress theme for
@@ -30,7 +30,8 @@ website consists of the following components and repositries:
        WordPress theme for Creative Commons website
    - URI Paths:
      - *default* (any URIs that don't match those listed, below)
-     - URLs from content importers (see CONTRIBUTING.md for more details)
+     - URLs from content importers (see [`CONTRIBUTING.md`](CONTRIBUTING.md)
+       for more details)
 2. Chooser
    - ~~[Creativecommons/chooser][chooser]: [WIP] The new and improved CC
      license selection tool.~~
@@ -41,19 +42,13 @@ website consists of the following components and repositries:
      infrastructure for Creative Commons (generates Legal Tools Data)
    - [creativecommons/cc-legal-tools-data][legaltoolsdata]: CC Licenses data
      (static HTML, language files, etc.)
-   - URI Paths:
-     - `/characteristic`
-     - `/choose`
-     - `/licenses`
-     - `/ns`
-     - `/publicdomain`
-     - `/rdf`
-     - `/schema.rdf`
-4. Misc Resources
+   - For a list of URI paths, see Aliases in
+     [`config/wordpress-apache/000-default.conf`][apacheconf]
+4. Platform Toolkit
    - [creativecommons/mp][mp]: Documentation for CC integration into
      user-generated content platforms
-   - URI Paths:
-     - `/platform/toolkit`
+   - For a list of URI paths, see Aliases in
+     [`config/wordpress-apache/000-default.conf`][apacheconf]
 
 Infrastructure Management is handled by:
 
@@ -67,6 +62,7 @@ Infrastructure Management is handled by:
 [legaltoolsapp]: https://github.com/creativecommons/cc-legal-tools-app
 [legaltoolsdata]:https://github.com/creativecommons/cc-legal-tools-data
 [mp]: https://github.com/creativecommons/mp
+[apacheconf]: config/wordpress-apache/000-default.conf
 [saltprime]: https://github.com/creativecommons/sre-salt-prime/
 
 ## Development
