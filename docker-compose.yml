@@ -19,6 +19,8 @@ services:
       # WordPress Theme development
       - ./creativecommons-base/:/var/www/html/wp-content/themes/creativecommons-base
       - ./wp-theme-creativecommons.org/:/var/www/html/wp-content/themes/wp-theme-creativecommons.org
+      - wp_data:/var/www/html
+
     environment:
       WORDPRESS_DB_HOST: database
       WORDPRESS_DB_NAME: "${DB_NAME:-wordpress_db}"
@@ -71,9 +73,30 @@ services:
     volumes:
       - ./wp-plugin-creativecommons-website/:/var/www/html/wp-content/plugins/wp-plugin-creativecommons-website
 
+  wordpress-cli:
+    volumes_from:
+      - database
+      - wordpress
+    image: wordpress:cli
+    user: xfs
+    environment:
+      WORDPRESS_DB_HOST: database
+      WORDPRESS_DB_NAME: "${DB_NAME:-wordpress_db}"
+      WORDPRESS_DB_USER: root
+      WORDPRESS_DB_PASSWORD: "${DB_ROOT_PASSWORD:-db_password}"
+    command:  >
+      /bin/sh -c '
+      wp plugin install wordpress-seo  && wp plugin activate wordpress-seo
+      '
+    volumes:
+      - wp_data:/var/www/html
+      - db_data:/var/lib/mysql
+    networks:
+      - backend
 
 volumes:
   db_data:
+  wp_data:
 
 
 networks:
