@@ -49,7 +49,7 @@
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:html -->
 <script src="https://unpkg.com/vue"></script>
-<script src="https://unpkg.com/@creativecommons/chooser@0.1.0/dist/license-chooser.min.js"></script>
+<script src="https://unpkg.com/@creativecommons/chooser@0.x.x/dist/license-chooser.min.js"></script>
 
 <license-chooser></license-chooser>
 <!-- /wp:html -->
