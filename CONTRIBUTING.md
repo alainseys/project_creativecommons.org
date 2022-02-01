@@ -112,7 +112,7 @@ docker-compose down
 
 After all the installtion is done, below are some steps that can be run to setup data for the staging environment
 
-### Login to wp-cli:
+### Create an alias for the WordPress CLI container:
 ``` sh
 
 alias wp="docker-compose run --rm wordpress-cli"`
