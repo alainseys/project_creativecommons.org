@@ -84,7 +84,6 @@ services:
       WORDPRESS_DB_NAME: "${DB_NAME:-wordpress_db}"
       WORDPRESS_DB_USER: root
       WORDPRESS_DB_PASSWORD: "${DB_ROOT_PASSWORD:-db_password}"
-    entrypoint: wp  
     command:  >
       /bin/sh -c '
       wp plugin install wordpress-seo  && wp plugin activate wordpress-seo
