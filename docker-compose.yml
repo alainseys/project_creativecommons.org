@@ -86,7 +86,7 @@ services:
       WORDPRESS_DB_PASSWORD: "${DB_ROOT_PASSWORD:-db_password}"
     command:  >
       /bin/sh -c '
-      wp plugin install wordpress-seo  && wp plugin activate wordpress-seo
+      wp plugin install wordpress-seo && wp plugin activate wordpress-seo && wp plugin install ultimate-addons-for-gutenberg && wp plugin activate ultimate-addons-for-gutenberg
       '
     volumes:
       - wp_data:/var/www/html
