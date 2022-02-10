@@ -108,11 +108,12 @@ docker-compose up
 docker-compose down
 ```
 
-# Setup data for staging
+## Setup data for staging
 
 After all the installtion is done, below are some steps that can be run to setup data for the staging environment
 
-### Create an alias for the WordPress CLI container:
+### Create an alias for the WordPress CLI container
+
 ``` sh
 
 alias wp="docker-compose run --rm wordpress-cli"`
@@ -141,12 +142,15 @@ wp menu item add-custom my-menu NEWS http://127.0.0.1:8000/support-us
 
 wp menu item add-custom my-menu SUPPORT-US http://127.0.0.1:8000/support-us
 ```
-### Import pages:
+
+### Import pages
+
 ``` sh
 wp import  content-import/all-pages.xml --authors=create
 ```
 
-### Enable URL rewrites for clean API URLs:
+### Enable URL rewrites for clean API URLs
+
 ``` sh
 wp rewrite structure '/%postname%'
 ```
