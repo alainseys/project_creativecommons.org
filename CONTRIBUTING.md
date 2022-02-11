@@ -155,6 +155,12 @@ The WordPress documentation contains an article describing [how to import conten
 
 Alternatively, use the WordPress CLI to import the content. See the WordPress CLI instructions below.
 
+### Ensure CC menu is in main navigation location
+
+The content importer contains a menu called "CC". The CC menu is intended to represent the main navigation. It will also be served via the API for downstream projects like the CC Global Headers.
+
+Go to the Menus -> [Manage Locations](http://127.0.0.1:8000/wp-admin/nav-menus.php?action=locations) screen and make sure the CC menu is in the Main navigation location.
+
 ### Enable URL rewrites for clean API URLs
 
 Visit the [Permalink Settings](http://127.0.0.1:8000/wp-admin/options-permalink.php) page to enable clean URLs, such as might be used by external sites and services.
