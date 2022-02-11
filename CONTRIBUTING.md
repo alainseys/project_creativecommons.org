@@ -115,7 +115,7 @@ The command above will create a variety of docker services:
 docker-compose down
 ```
 
-### Install WordPres (first-time)
+### Install WordPress (first-time)
 
 If you are starting the WordPress service for the first time, you will see the
 WordPress installation wizard:
