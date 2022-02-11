@@ -119,7 +119,7 @@ docker-compose down
 
 ### WP CLI
 
-1. Ensure the docker services are running ([Star the server](start-the-server), above)
+1. Ensure the docker services are running ([Start the server](start-the-server), above)
 2. Simply run the helper script:
 ```
 ./setup-wordpress.sh
@@ -181,7 +181,7 @@ Alternatively, use the WordPress CLI to import the content. See the WordPress CL
 
 The content importer contains a menu called "CC". The CC menu is intended to represent the main navigation. It will also be served via the API for downstream projects like the CC Global Headers.
 
-Go to the Menus -> [Manage Locations](http://127.0.0.1:8000/wp-admin/nav-menus.php?action=locations) screen and make sure the CC menu is in the Main navigation location.
+Go to the Appearance -> Menus -> [Manage Locations](http://127.0.0.1:8000/wp-admin/nav-menus.php?action=locations) screen and make sure the CC menu is in the Main navigation location.
 
 #### Enable URL rewrites for clean API URLs
 
