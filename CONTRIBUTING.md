@@ -125,6 +125,8 @@ WordPress installation wizard:
 Complete the installation process and make note of your username and password
 so that you can log in (below).
 
+Alternatively, see the WordPress CLI section below for an example of how to install WordPress via the command line.
+
 ### Log in to WordPress
 
 With the development server running, log in to the local WordPress with the
@@ -181,6 +183,16 @@ Verify the alias:
 
 ```sh
 wp --info
+```
+
+### Install WordPress
+
+We can install WordPress and create the initial admin user with a single command.
+
+Replace `YOUR_USERNAME` and `YOUR_EMAIL` with the appropriate values in the command below.
+
+```sh
+wp core install --url='http://127.0.0.1:8000' --title='CC Dev' --admin-user='YOUR_USERNAME' --admin_email='YOUR_EMAIL'
 ```
 
 #### Import content
