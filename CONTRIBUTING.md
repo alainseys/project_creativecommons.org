@@ -119,7 +119,7 @@ docker-compose down
 
 ### WP CLI
 
-1. Ensure the docker services are running ([Start the server](start-the-server), above)
+1. Ensure the docker services are running ([Start the server](#start-the-server), above)
 2. Simply run the helper script:
 ```
 ./setup-wordpress.sh
