@@ -2,7 +2,7 @@
 
 There are many ways to contribute to this project, such as testing, design, and development.
 
-## Development
+## Development Setup
 
 This section provides information for people who are interested in contributing code.
 
@@ -57,11 +57,11 @@ The Git submodule projects are under active development. When the submodule code
 git submodule update --remote --merge
 ```
 
-## Environment variables
+### Environment variables
 
 There are several optional environment variables used in the `docker-compose.yml` file. If you need, you can copy the `.env.example` to `.env` and override the variables. Otherwise, the defaults should work fine.
 
-### Changing database
+#### Changing database
 
 The optional `.env` file may contain a variable called `DATABASE`. The value of `DATABASE` will determine which database is used for development (`mysql` or `mariadb`). By default, we use `mariadb` but you can change this to `mysql` if desired.
 
@@ -90,11 +90,11 @@ You can revert the change with:
 rm cc-legal-tools-data; git restore cc-legal-tools-data; git submodule update --init
 ```
 
-### Run the development server
+## Run the development server
 
 Once you have installed the above development dependencies, you can run the following commands from within this project directory.
 
-#### Start the server
+### Start the server
 
 Note: this step is handled automatically in the browser-based development environment.
 
@@ -109,13 +109,35 @@ The command above will create a variety of docker services:
 3. **phpmyadmin** ([127.0.0.1:8003](http://127.0.0.1:8003/))
 4. **composer**
 
-#### Stop the server
+### Stop the server
 
 ```sh
 docker-compose down
 ```
 
-### Install WordPress (first-time)
+## Setup WordPress (first-time)
+
+### WP CLI
+
+1. Ensure the docker services are running ([Start the server](#start-the-server), above)
+2. Simply run the helper script:
+```
+./setup-wordpress.sh
+```
+
+If you want to run WPI CLI commands manually, the following alias willmake it much easier:
+
+``` sh
+alias wp="docker-compose run --rm wordpress-cli --url='http://127.0.0.1:8000'"
+```
+
+Verify the alias:
+
+```sh
+wp --info
+```
+
+### Web GUI
 
 If you are starting the WordPress service for the first time, you will see the
 WordPress installation wizard:
@@ -127,27 +149,27 @@ so that you can log in (below).
 
 Alternatively, see the WordPress CLI section below for an example of how to install WordPress via the command line.
 
-### Log in to WordPress
+#### Log in to WordPress
 
 With the development server running, log in to the local WordPress with the
 login credentials you created during the WordPress installation:
 
 - [127.0.0.1:8000/wp-login.php](http://127.0.0.1:8000/wp-login.php).
 
-### Access the WordPress admin area
+#### Access the WordPress admin area
 
 Once you are logged in with your admin user (above), you can access the
 WordPress admin area:
 
 - [127.0.0.1:8000/wp-admin/](http://127.0.0.1:8000/wp-admin/)
 
-### Activate CC theme and plugins
+#### Activate CC theme and plugins
 
 From the WordPress admin area, you can activate the Creative Commons WordPress child theme from the [Theme Settings](http://127.0.0.1:8000/wp-admin/themes.php) and [Plugins](http://127.0.0.1:8000/wp-admin/plugins.php) pages respectively. Note, some plugins may be automatically enabled by our Docker compose service.
 
 The child theme is called `creativecommons.org Child theme`.
 
-### Import staging content
+#### Import staging content
 
 We have prepared some pre-existing content based on the desired page and URL structure for the new Creative Commons website, which is located in the `content-import` folder in the file `staging-content-import.xml`.
 
@@ -155,69 +177,19 @@ The WordPress documentation contains an article describing [how to import conten
 
 Alternatively, use the WordPress CLI to import the content. See the WordPress CLI instructions below.
 
-### Ensure CC menu is in main navigation location
+#### Ensure CC menu is in main navigation location
 
 The content importer contains a menu called "CC". The CC menu is intended to represent the main navigation. It will also be served via the API for downstream projects like the CC Global Headers.
 
-Go to the Menus -> [Manage Locations](http://127.0.0.1:8000/wp-admin/nav-menus.php?action=locations) screen and make sure the CC menu is in the Main navigation location.
+Go to the Appearance -> Menus -> [Manage Locations](http://127.0.0.1:8000/wp-admin/nav-menus.php?action=locations) screen and make sure the CC menu is in the Main navigation location.
 
-### Enable URL rewrites for clean API URLs
+#### Enable URL rewrites for clean API URLs
 
 Visit the [Permalink Settings](http://127.0.0.1:8000/wp-admin/options-permalink.php) page to enable clean URLs, such as might be used by external sites and services.
 
 Alternatively, see the WordPress CLI section below for an example of how to enable clean URLs via command line.
 
-### Working with the WordPress CLI
-
-The development environment contains a [WordPress CLI](https://wp-cli.org/) container that may prove useful for interacting with WordPress from the shell. Further details about specific WP CLI commands can be found in the [WP-CLI Handbook](https://make.wordpress.org/cli/handbook/).
-
-Use the following to send commands to the `wordpress-cli` Docker container:
-
-```sh
-docker-compose run --rm wordpress-cli
-```
-
-#### Create an alias for the WordPress CLI container
-
-Optionally, add the following alias to make it easier to interact with the WordPress CLI.
-
-``` sh
-alias wp="docker-compose run --rm wordpress-cli"`
-```
-
-Verify the alias:
-
-```sh
-wp --info
-```
-
-### Install WordPress
-
-We can install WordPress and create the initial admin user with a single command.
-
-Replace `YOUR_USERNAME` and `YOUR_EMAIL` with the appropriate values in the command below.
-
-```sh
-wp core install --url='http://127.0.0.1:8000' --title='CC Dev' --admin-user='YOUR_USERNAME' --admin_email='YOUR_EMAIL'
-```
-
-#### Import content
-
-The following WordPress CLI command can be used to import content, such as the `staging-content-import.xml`
-
-``` sh
-wp import  content-import/staging-content-import.xml --authors=create
-```
-
-#### Enable clean URLs
-
-The following command will set up clean URLs, such as may be needed by downstream sites or services.
-
-``` sh
-wp rewrite structure '/%postname%'
-```
-
-### Developing Gutenberg blocks
+## Developing Gutenberg blocks
 
 This project contains the `wp-plugin-cc-gutenberg-blocks` project as a Git submodule. Do the following, if you would like to develop CC Gutenberg blocks in the context of `project_creativecommons.org`.
 

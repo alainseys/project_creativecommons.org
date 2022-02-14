@@ -91,6 +91,7 @@ services:
     volumes:
       - wp_data:/var/www/html
       - db_data:/var/lib/mysql
+      - ./content-import:/var/www/html/content-import
     networks:
       - backend
 
