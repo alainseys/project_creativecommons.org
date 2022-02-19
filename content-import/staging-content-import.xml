@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/5.8.2" created="2022-02-08 10:10" -->
+	<!-- generator="WordPress/5.9" created="2022-02-19 12:12" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>Creative Commons</title>
 	<link>http://127.0.0.1:8000</link>
 	<description>Just another WordPress site</description>
-	<pubDate>Tue, 08 Feb 2022 10:10:35 +0000</pubDate>
+	<pubDate>Sat, 19 Feb 2022 12:12:02 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://127.0.0.1:8000</wp:base_site_url>
@@ -37,6 +37,12 @@
 
 		<wp:author><wp:author_id>1</wp:author_id><wp:author_login><![CDATA[godsonmuluh]]></wp:author_login><wp:author_email><![CDATA[godsonmuluh@gmail.com]]></wp:author_email><wp:author_display_name><![CDATA[godsonmuluh]]></wp:author_display_name><wp:author_first_name><![CDATA[]]></wp:author_first_name><wp:author_last_name><![CDATA[]]></wp:author_last_name></wp:author>
 
+		<wp:category>
+		<wp:term_id>16</wp:term_id>
+		<wp:category_nicename><![CDATA[about-cc]]></wp:category_nicename>
+		<wp:category_parent><![CDATA[]]></wp:category_parent>
+		<wp:cat_name><![CDATA[About CC]]></wp:cat_name>
+	</wp:category>
 		<wp:category>
 		<wp:term_id>6</wp:term_id>
 		<wp:category_nicename><![CDATA[community-and-outreach]]></wp:category_nicename>
@@ -48,6 +54,18 @@
 		<wp:category_nicename><![CDATA[discovery]]></wp:category_nicename>
 		<wp:category_parent><![CDATA[]]></wp:category_parent>
 		<wp:cat_name><![CDATA[Discovery]]></wp:cat_name>
+	</wp:category>
+		<wp:category>
+		<wp:term_id>22</wp:term_id>
+		<wp:category_nicename><![CDATA[open-culture]]></wp:category_nicename>
+		<wp:category_parent><![CDATA[]]></wp:category_parent>
+		<wp:cat_name><![CDATA[Open Culture]]></wp:cat_name>
+	</wp:category>
+		<wp:category>
+		<wp:term_id>25</wp:term_id>
+		<wp:category_nicename><![CDATA[open-culture-voices]]></wp:category_nicename>
+		<wp:category_parent><![CDATA[]]></wp:category_parent>
+		<wp:cat_name><![CDATA[Open Culture VOICES]]></wp:cat_name>
 	</wp:category>
 		<wp:category>
 		<wp:term_id>5</wp:term_id>
@@ -67,12 +85,71 @@
 		<wp:category_parent><![CDATA[]]></wp:category_parent>
 		<wp:cat_name><![CDATA[Unlocking Knowledge]]></wp:cat_name>
 	</wp:category>
-				<wp:term>
-		<wp:term_id>8</wp:term_id>
+			<wp:tag>
+		<wp:term_id>21</wp:term_id>
+		<wp:tag_slug><![CDATA[cc0-public-domain-dedication]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[CC0 Public Domain Dedication]]></wp:tag_name>
+	</wp:tag>
+		<wp:tag>
+		<wp:term_id>14</wp:term_id>
+		<wp:tag_slug><![CDATA[feature]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[feature]]></wp:tag_name>
+	</wp:tag>
+		<wp:tag>
+		<wp:term_id>15</wp:term_id>
+		<wp:tag_slug><![CDATA[featured]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[featured]]></wp:tag_name>
+	</wp:tag>
+		<wp:tag>
+		<wp:term_id>24</wp:term_id>
+		<wp:tag_slug><![CDATA[mx]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Mexico]]></wp:tag_name>
+	</wp:tag>
+		<wp:tag>
+		<wp:term_id>17</wp:term_id>
+		<wp:tag_slug><![CDATA[open-culture]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[open culture]]></wp:tag_name>
+	</wp:tag>
+		<wp:tag>
+		<wp:term_id>18</wp:term_id>
+		<wp:tag_slug><![CDATA[open-culture-voices]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[Open Culture VOICES]]></wp:tag_name>
+	</wp:tag>
+		<wp:tag>
+		<wp:term_id>19</wp:term_id>
+		<wp:tag_slug><![CDATA[open-glam]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[open glam]]></wp:tag_name>
+	</wp:tag>
+		<wp:tag>
+		<wp:term_id>20</wp:term_id>
+		<wp:tag_slug><![CDATA[open-minds]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[open minds]]></wp:tag_name>
+	</wp:tag>
+		<wp:tag>
+		<wp:term_id>23</wp:term_id>
+		<wp:tag_slug><![CDATA[public-domain]]></wp:tag_slug>
+		<wp:tag_name><![CDATA[public domain]]></wp:tag_name>
+	</wp:tag>
+			<wp:term>
+		<wp:term_id>16</wp:term_id>
+		<wp:term_taxonomy><![CDATA[category]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[about-cc]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[About CC]]></wp:term_name>
+	</wp:term>
+		<wp:term>
+		<wp:term_id>26</wp:term_id>
 		<wp:term_taxonomy><![CDATA[nav_menu]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[cc]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
 		<wp:term_name><![CDATA[CC]]></wp:term_name>
+	</wp:term>
+		<wp:term>
+		<wp:term_id>21</wp:term_id>
+		<wp:term_taxonomy><![CDATA[post_tag]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[cc0-public-domain-dedication]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[CC0 Public Domain Dedication]]></wp:term_name>
 	</wp:term>
 		<wp:term>
 		<wp:term_id>6</wp:term_id>
@@ -89,11 +166,103 @@
 		<wp:term_name><![CDATA[Discovery]]></wp:term_name>
 	</wp:term>
 		<wp:term>
+		<wp:term_id>14</wp:term_id>
+		<wp:term_taxonomy><![CDATA[post_tag]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[feature]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[feature]]></wp:term_name>
+	</wp:term>
+		<wp:term>
+		<wp:term_id>13</wp:term_id>
+		<wp:term_taxonomy><![CDATA[cc_highlight]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[featured]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[Featured]]></wp:term_name>
+	</wp:term>
+		<wp:term>
+		<wp:term_id>15</wp:term_id>
+		<wp:term_taxonomy><![CDATA[post_tag]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[featured]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[featured]]></wp:term_name>
+	</wp:term>
+		<wp:term>
+		<wp:term_id>12</wp:term_id>
+		<wp:term_taxonomy><![CDATA[cc_highlight]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[hero]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[Hero]]></wp:term_name>
+	</wp:term>
+		<wp:term>
+		<wp:term_id>24</wp:term_id>
+		<wp:term_taxonomy><![CDATA[post_tag]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[mx]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[Mexico]]></wp:term_name>
+	</wp:term>
+		<wp:term>
+		<wp:term_id>17</wp:term_id>
+		<wp:term_taxonomy><![CDATA[post_tag]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[open-culture]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[open culture]]></wp:term_name>
+	</wp:term>
+		<wp:term>
+		<wp:term_id>22</wp:term_id>
+		<wp:term_taxonomy><![CDATA[category]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[open-culture]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[Open Culture]]></wp:term_name>
+	</wp:term>
+		<wp:term>
+		<wp:term_id>18</wp:term_id>
+		<wp:term_taxonomy><![CDATA[post_tag]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[open-culture-voices]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[Open Culture VOICES]]></wp:term_name>
+	</wp:term>
+		<wp:term>
+		<wp:term_id>25</wp:term_id>
+		<wp:term_taxonomy><![CDATA[category]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[open-culture-voices]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[Open Culture VOICES]]></wp:term_name>
+	</wp:term>
+		<wp:term>
+		<wp:term_id>19</wp:term_id>
+		<wp:term_taxonomy><![CDATA[post_tag]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[open-glam]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[open glam]]></wp:term_name>
+	</wp:term>
+		<wp:term>
+		<wp:term_id>20</wp:term_id>
+		<wp:term_taxonomy><![CDATA[post_tag]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[open-minds]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[open minds]]></wp:term_name>
+	</wp:term>
+		<wp:term>
 		<wp:term_id>5</wp:term_id>
 		<wp:term_taxonomy><![CDATA[category]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[policy]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
 		<wp:term_name><![CDATA[Policy]]></wp:term_name>
+	</wp:term>
+		<wp:term>
+		<wp:term_id>23</wp:term_id>
+		<wp:term_taxonomy><![CDATA[post_tag]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[public-domain]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[public domain]]></wp:term_name>
+	</wp:term>
+		<wp:term>
+		<wp:term_id>11</wp:term_id>
+		<wp:term_taxonomy><![CDATA[cc_resource_platform]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[platform]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[Test Platform]]></wp:term_name>
+		<wp:term_description><![CDATA[resource platform]]></wp:term_description>
 	</wp:term>
 		<wp:term>
 		<wp:term_id>1</wp:term_id>
@@ -109,10 +278,17 @@
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
 		<wp:term_name><![CDATA[Unlocking Knowledge]]></wp:term_name>
 	</wp:term>
-			<wp:term><wp:term_id>8</wp:term_id><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug><![CDATA[cc]]></wp:term_slug><wp:term_name><![CDATA[CC]]></wp:term_name>
+		<wp:term>
+		<wp:term_id>9</wp:term_id>
+		<wp:term_taxonomy><![CDATA[wp_theme]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[wp-theme-creativecommons-org]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[wp-theme-creativecommons.org]]></wp:term_name>
+	</wp:term>
+			<wp:term><wp:term_id>26</wp:term_id><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug><![CDATA[cc]]></wp:term_slug><wp:term_name><![CDATA[CC]]></wp:term_name>
 </wp:term>
 
-	<generator>https://wordpress.org/?v=5.8.2</generator>
+	<generator>https://wordpress.org/?v=5.9</generator>
 
 		<item>
 		<title><![CDATA[cc_licenses_page_image_3]]></title>
@@ -379,677 +555,6 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title><![CDATA[Who we are]]></title>
-		<link>http://127.0.0.1:8000/who-we-are/</link>
-		<pubDate>Mon, 07 Feb 2022 15:40:44 +0000</pubDate>
-		<dc:creator><![CDATA[godsonmuluh]]></dc:creator>
-		<guid isPermaLink="false">http://127.0.0.1:8000/?p=63046</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>63046</wp:post_id>
-		<wp:post_date><![CDATA[2022-02-08 09:55:15]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2022-02-07 15:40:44]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-02-08 09:55:15]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-02-08 09:55:15]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[who-we-are]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>1</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="nav_menu" nicename="cc"><![CDATA[CC]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-		<wp:meta_value><![CDATA[0]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[63046]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-		<wp:meta_value><![CDATA[/]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2022-02-07]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[What we do]]></title>
-		<link>http://127.0.0.1:8000/what-we-do/</link>
-		<pubDate>Mon, 07 Feb 2022 15:47:11 +0000</pubDate>
-		<dc:creator><![CDATA[godsonmuluh]]></dc:creator>
-		<guid isPermaLink="false">http://127.0.0.1:8000/?p=63047</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>63047</wp:post_id>
-		<wp:post_date><![CDATA[2022-02-08 09:55:17]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2022-02-07 15:47:11]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-02-08 09:55:17]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-02-08 09:55:17]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[what-we-do]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>9</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="nav_menu" nicename="cc"><![CDATA[CC]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-		<wp:meta_value><![CDATA[0]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[63047]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-		<wp:meta_value><![CDATA[/]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2022-02-07]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[About CC: Mission, Vision, Values]]></title>
-		<link>http://127.0.0.1:8000/about-cc-mission-vision-values/</link>
-		<pubDate>Mon, 07 Feb 2022 15:55:36 +0000</pubDate>
-		<dc:creator><![CDATA[godsonmuluh]]></dc:creator>
-		<guid isPermaLink="false">http://127.0.0.1:8000/?p=63051</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>63051</wp:post_id>
-		<wp:post_date><![CDATA[2022-02-08 09:55:15]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2022-02-07 15:55:36]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-02-08 09:55:15]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-02-08 09:55:15]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[about-cc-mission-vision-values]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>2</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="nav_menu" nicename="cc"><![CDATA[CC]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-		<wp:meta_value><![CDATA[63046]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[62827]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-		<wp:meta_value><![CDATA[page]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2022-02-07]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[Our Strategy]]></title>
-		<link>http://127.0.0.1:8000/our-strategy/</link>
-		<pubDate>Mon, 07 Feb 2022 15:57:04 +0000</pubDate>
-		<dc:creator><![CDATA[godsonmuluh]]></dc:creator>
-		<guid isPermaLink="false">http://127.0.0.1:8000/?p=63052</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>63052</wp:post_id>
-		<wp:post_date><![CDATA[2022-02-08 09:55:15]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2022-02-07 15:57:04]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-02-08 09:55:15]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-02-08 09:55:15]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[our-strategy]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>3</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="nav_menu" nicename="cc"><![CDATA[CC]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-		<wp:meta_value><![CDATA[63046]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[63052]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-		<wp:meta_value><![CDATA[/strategy]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2022-02-07]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[Our Team]]></title>
-		<link>http://127.0.0.1:8000/our-team/</link>
-		<pubDate>Mon, 07 Feb 2022 16:03:12 +0000</pubDate>
-		<dc:creator><![CDATA[godsonmuluh]]></dc:creator>
-		<guid isPermaLink="false">http://127.0.0.1:8000/?p=63053</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>63053</wp:post_id>
-		<wp:post_date><![CDATA[2022-02-08 09:55:15]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2022-02-07 16:03:12]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-02-08 09:55:15]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-02-08 09:55:15]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[our-team]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>4</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="nav_menu" nicename="cc"><![CDATA[CC]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-		<wp:meta_value><![CDATA[63046]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[63053]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-		<wp:meta_value><![CDATA[/]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2022-02-07]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[Opportunities]]></title>
-		<link>http://127.0.0.1:8000/opportunities/</link>
-		<pubDate>Mon, 07 Feb 2022 16:03:12 +0000</pubDate>
-		<dc:creator><![CDATA[godsonmuluh]]></dc:creator>
-		<guid isPermaLink="false">http://127.0.0.1:8000/?p=63054</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>63054</wp:post_id>
-		<wp:post_date><![CDATA[2022-02-08 09:55:16]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2022-02-07 16:03:12]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-02-08 09:55:16]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-02-08 09:55:16]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[opportunities]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>5</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="nav_menu" nicename="cc"><![CDATA[CC]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-		<wp:meta_value><![CDATA[63053]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[63054]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-		<wp:meta_value><![CDATA[/]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2022-02-07]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[Our Board + Advisors]]></title>
-		<link>http://127.0.0.1:8000/our-board-advisors/</link>
-		<pubDate>Mon, 07 Feb 2022 16:09:02 +0000</pubDate>
-		<dc:creator><![CDATA[godsonmuluh]]></dc:creator>
-		<guid isPermaLink="false">http://127.0.0.1:8000/?p=63055</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>63055</wp:post_id>
-		<wp:post_date><![CDATA[2022-02-08 09:55:16]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2022-02-07 16:09:02]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-02-08 09:55:16]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-02-08 09:55:16]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[our-board-advisors]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>6</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="nav_menu" nicename="cc"><![CDATA[CC]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-		<wp:meta_value><![CDATA[63046]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[63055]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-		<wp:meta_value><![CDATA[/]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2022-02-07]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[Store]]></title>
-		<link>http://127.0.0.1:8000/store/</link>
-		<pubDate>Mon, 07 Feb 2022 16:10:16 +0000</pubDate>
-		<dc:creator><![CDATA[godsonmuluh]]></dc:creator>
-		<guid isPermaLink="false">http://127.0.0.1:8000/?p=63056</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>63056</wp:post_id>
-		<wp:post_date><![CDATA[2022-02-08 09:55:17]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2022-02-07 16:10:16]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-02-08 09:55:17]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-02-08 09:55:17]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[store]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>7</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="nav_menu" nicename="cc"><![CDATA[CC]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-		<wp:meta_value><![CDATA[63046]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[63056]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-		<wp:meta_value><![CDATA[https://store.creativecommons.org/]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2022-02-07]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[Logos]]></title>
-		<link>http://127.0.0.1:8000/logos/</link>
-		<pubDate>Mon, 07 Feb 2022 16:56:44 +0000</pubDate>
-		<dc:creator><![CDATA[godsonmuluh]]></dc:creator>
-		<guid isPermaLink="false">http://127.0.0.1:8000/?p=63057</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>63057</wp:post_id>
-		<wp:post_date><![CDATA[2022-02-08 09:55:17]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2022-02-07 16:56:44]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-02-08 09:55:17]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-02-08 09:55:17]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[logos]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>8</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="nav_menu" nicename="cc"><![CDATA[CC]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-		<wp:meta_value><![CDATA[63046]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[63057]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-		<wp:meta_value><![CDATA[/]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2022-02-07]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[Advocacy]]></title>
-		<link>http://127.0.0.1:8000/advocacy/</link>
-		<pubDate>Mon, 07 Feb 2022 17:05:13 +0000</pubDate>
-		<dc:creator><![CDATA[godsonmuluh]]></dc:creator>
-		<guid isPermaLink="false">http://127.0.0.1:8000/?p=63059</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>63059</wp:post_id>
-		<wp:post_date><![CDATA[2022-02-08 09:55:18]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2022-02-07 17:05:13]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-02-08 09:55:18]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-02-08 09:55:18]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[advocacy]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>10</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="nav_menu" nicename="cc"><![CDATA[CC]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-		<wp:meta_value><![CDATA[63047]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[63059]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-		<wp:meta_value><![CDATA[/program]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2022-02-07]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[Open Policy]]></title>
-		<link>http://127.0.0.1:8000/open-policy/</link>
-		<pubDate>Mon, 07 Feb 2022 17:15:29 +0000</pubDate>
-		<dc:creator><![CDATA[godsonmuluh]]></dc:creator>
-		<guid isPermaLink="false">http://127.0.0.1:8000/?p=63060</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>63060</wp:post_id>
-		<wp:post_date><![CDATA[2022-02-08 09:55:18]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2022-02-07 17:15:29]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-02-08 09:55:18]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-02-08 09:55:18]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[open-policy]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>11</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="nav_menu" nicename="cc"><![CDATA[CC]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-		<wp:meta_value><![CDATA[63059]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[63060]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-		<wp:meta_value><![CDATA[/]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2022-02-07]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
 		<title><![CDATA[CC License Chooser]]></title>
 		<link>http://127.0.0.1:8000/?p=63065</link>
 		<pubDate></pubDate>
@@ -1110,6 +615,591 @@
 		</wp:postmeta>
 							</item>
 					<item>
+		<title><![CDATA[cc-resource.zip]]></title>
+		<link>http://127.0.0.1:8000/cc-resource-zip/</link>
+		<pubDate>Wed, 16 Feb 2022 01:36:54 +0000</pubDate>
+		<dc:creator><![CDATA[godsonmuluh]]></dc:creator>
+		<guid isPermaLink="false">http://127.0.0.1:8000/wp-content/uploads/2022/02/cc-resource.zip</guid>
+		<description></description>
+		<content:encoded><![CDATA[http://127.0.0.1:8000/wp-content/uploads/2022/02/cc-resource.zip]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>63090</wp:post_id>
+		<wp:post_date><![CDATA[2022-02-16 01:36:54]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-02-16 01:36:54]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-02-16 01:36:54]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-02-16 01:36:54]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[cc-resource-zip]]></wp:post_name>
+		<wp:status><![CDATA[private]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[http://127.0.0.1:8000/wp-content/uploads/2022/02/cc-resource.zip]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2022/02/cc-resource.zip]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_context]]></wp:meta_key>
+		<wp:meta_value><![CDATA[upgrader]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[cc-resource.zip]]></title>
+		<link>http://127.0.0.1:8000/cc-resource-zip-2/</link>
+		<pubDate>Wed, 16 Feb 2022 01:36:54 +0000</pubDate>
+		<dc:creator><![CDATA[godsonmuluh]]></dc:creator>
+		<guid isPermaLink="false">http://127.0.0.1:8000/wp-content/uploads/2022/02/cc-resource-1.zip</guid>
+		<description></description>
+		<content:encoded><![CDATA[http://127.0.0.1:8000/wp-content/uploads/2022/02/cc-resource-1.zip]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>63091</wp:post_id>
+		<wp:post_date><![CDATA[2022-02-16 01:36:54]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-02-16 01:36:54]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-02-16 01:36:54]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-02-16 01:36:54]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[cc-resource-zip-2]]></wp:post_name>
+		<wp:status><![CDATA[private]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[http://127.0.0.1:8000/wp-content/uploads/2022/02/cc-resource-1.zip]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2022/02/cc-resource-1.zip]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_context]]></wp:meta_key>
+		<wp:meta_value><![CDATA[upgrader]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Who we are]]></title>
+		<link>http://127.0.0.1:8000/who-we-are/</link>
+		<pubDate>Fri, 18 Feb 2022 19:19:18 +0000</pubDate>
+		<dc:creator><![CDATA[godsonmuluh]]></dc:creator>
+		<guid isPermaLink="false">http://127.0.0.1:8000/who-we-are/</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>64699</wp:post_id>
+		<wp:post_date><![CDATA[2022-02-18 20:09:11]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-02-18 19:19:18]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-02-18 20:09:11]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-02-18 20:09:11]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[who-we-are]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>1</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="nav_menu" nicename="cc"><![CDATA[CC]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[64699]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[/]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Store]]></title>
+		<link>http://127.0.0.1:8000/store/</link>
+		<pubDate>Fri, 18 Feb 2022 19:19:25 +0000</pubDate>
+		<dc:creator><![CDATA[godsonmuluh]]></dc:creator>
+		<guid isPermaLink="false">http://127.0.0.1:8000/store/</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>64705</wp:post_id>
+		<wp:post_date><![CDATA[2022-02-18 20:09:14]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-02-18 19:19:25]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-02-18 20:09:14]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-02-18 20:09:14]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[store]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>7</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="nav_menu" nicename="cc"><![CDATA[CC]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[64699]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[64705]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[https://store.creativecommons.org/]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[About CC: Mission, Vision, Values]]></title>
+		<link>http://127.0.0.1:8000/about-cc-mission-vision-values/</link>
+		<pubDate>Fri, 18 Feb 2022 19:20:28 +0000</pubDate>
+		<dc:creator><![CDATA[godsonmuluh]]></dc:creator>
+		<guid isPermaLink="false">http://127.0.0.1:8000/about-cc-mission-vision-values/</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>64724</wp:post_id>
+		<wp:post_date><![CDATA[2022-02-18 20:09:12]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-02-18 19:20:28]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-02-18 20:09:12]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-02-18 20:09:12]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[about-cc-mission-vision-values]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>2</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="nav_menu" nicename="cc"><![CDATA[CC]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[64699]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[62827]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[]]></title>
+		<link>http://127.0.0.1:8000/our-team-2/</link>
+		<pubDate>Fri, 18 Feb 2022 19:59:31 +0000</pubDate>
+		<dc:creator><![CDATA[godsonmuluh]]></dc:creator>
+		<guid isPermaLink="false">http://127.0.0.1:8000/?p=64760</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>64760</wp:post_id>
+		<wp:post_date><![CDATA[2022-02-18 20:09:12]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-02-18 19:59:31]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-02-18 20:09:12]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-02-18 20:09:12]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[our-team-2]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>4</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="nav_menu" nicename="cc"><![CDATA[CC]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[64699]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[63038]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[]]></title>
+		<link>http://127.0.0.1:8000/?p=64761</link>
+		<pubDate></pubDate>
+		<dc:creator><![CDATA[godsonmuluh]]></dc:creator>
+		<guid isPermaLink="false">http://127.0.0.1:8000/?p=64761</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>64761</wp:post_id>
+		<wp:post_date><![CDATA[2022-02-18 20:00:31]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[0000-00-00 00:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-02-18 20:00:31]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[0000-00-00 00:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[]]></wp:post_name>
+		<wp:status><![CDATA[draft]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>1</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[63038]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_orphaned]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1645214433]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[]]></title>
+		<link>http://127.0.0.1:8000/?p=64762</link>
+		<pubDate></pubDate>
+		<dc:creator><![CDATA[godsonmuluh]]></dc:creator>
+		<guid isPermaLink="false">http://127.0.0.1:8000/?p=64762</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>64762</wp:post_id>
+		<wp:post_date><![CDATA[2022-02-18 20:00:57]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[0000-00-00 00:00:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-02-18 20:00:57]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[0000-00-00 00:00:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[]]></wp:post_name>
+		<wp:status><![CDATA[draft]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>1</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[64757]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_orphaned]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1645214457]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[]]></title>
+		<link>http://127.0.0.1:8000/64765/</link>
+		<pubDate>Fri, 18 Feb 2022 20:02:23 +0000</pubDate>
+		<dc:creator><![CDATA[godsonmuluh]]></dc:creator>
+		<guid isPermaLink="false">http://127.0.0.1:8000/?p=64765</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>64765</wp:post_id>
+		<wp:post_date><![CDATA[2022-02-18 20:09:13]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-02-18 20:02:23]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-02-18 20:09:13]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-02-18 20:09:13]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[64765]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>5</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="nav_menu" nicename="cc"><![CDATA[CC]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[64699]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[64763]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[]]></title>
+		<link>http://127.0.0.1:8000/64768/</link>
+		<pubDate>Fri, 18 Feb 2022 20:04:26 +0000</pubDate>
+		<dc:creator><![CDATA[godsonmuluh]]></dc:creator>
+		<guid isPermaLink="false">http://127.0.0.1:8000/?p=64768</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>64768</wp:post_id>
+		<wp:post_date><![CDATA[2022-02-18 20:09:13]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-02-18 20:04:26]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-02-18 20:09:13]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-02-18 20:09:13]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[64768]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>6</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="nav_menu" nicename="cc"><![CDATA[CC]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[64699]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[64766]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[]]></title>
+		<link>http://127.0.0.1:8000/64769/</link>
+		<pubDate>Fri, 18 Feb 2022 20:04:24 +0000</pubDate>
+		<dc:creator><![CDATA[godsonmuluh]]></dc:creator>
+		<guid isPermaLink="false">http://127.0.0.1:8000/?p=64769</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>64769</wp:post_id>
+		<wp:post_date><![CDATA[2022-02-18 20:09:12]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-02-18 20:04:24]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-02-18 20:09:12]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-02-18 20:09:12]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[64769]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>3</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="nav_menu" nicename="cc"><![CDATA[CC]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[64699]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[64757]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
 		<title><![CDATA[Project]]></title>
 		<link>http://127.0.0.1:8000/open-policy/</link>
 		<pubDate>Thu, 28 Oct 2021 19:09:46 +0000</pubDate>
@@ -1120,7 +1210,7 @@
 <div class="wp-block-group"><!-- wp:columns {"textColor":"dark-slate-gray"} -->
 <div class="wp-block-columns has-dark-slate-gray-color has-text-color"><!-- wp:column {"className":"open-policy-heading"} -->
 <div class="wp-block-column open-policy-heading"><!-- wp:heading {"level":1,"className":"open_policy"} -->
-<h1 class="open_policy">OPEN POLICY</h1>
+<h1 class="open_policy" id="open-policy">OPEN POLICY</h1>
 <!-- /wp:heading -->
 
 <!-- wp:spacer {"height":21} -->
@@ -1129,10 +1219,6 @@
 
 <!-- wp:paragraph {"className":"open_policy_text"} -->
 <p class="open_policy_text">The community of individuals and institutions advocating for open access and embarking on open initiatives is far bigger than the CC Global Network.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
@@ -1148,8 +1234,8 @@
 <!-- /wp:columns --></div>
 <!-- /wp:group -->
 
-<!-- wp:columns {"className":"block-2"} -->
-<div class="wp-block-columns block-2"><!-- wp:column -->
+<!-- wp:columns {"style":{"spacing":{"padding":{"top":"1rem","right":"1rem","bottom":"1rem","left":"1rem"}}},"className":"block-2"} -->
+<div class="wp-block-columns block-2" style="padding-top:1rem;padding-right:1rem;padding-bottom:1rem;padding-left:1rem"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:paragraph {"className":"first-paragraph"} -->
 <p class="first-paragraph">In order to engage with this “open community” more broadly, we steward the CC Global Summit. Led by the community itself through the CC Summit program committee, this annual gathering brings together hundreds of open community members to discuss issues related to education, policy, culture, science, copyright, and more. We’re particularly proud of the CC Global Summit Scholarship program, which provides hundreds of community members with the opportunity to attend the event through financial assistance. In 2019, 150 individuals from 59 countries received financial assistance, representing 38% of all attendees.</p>
 <!-- /wp:paragraph -->
@@ -1170,30 +1256,26 @@
 
 <!-- wp:spacer {"height":17} -->
 <div style="height:17px" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer -->
-
-<!-- wp:buttons -->
-<div class="wp-block-buttons"><!-- wp:button /--></div>
-<!-- /wp:buttons --></div>
+<!-- /wp:spacer --></div>
 <!-- /wp:column -->
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:heading {"className":"news-one"} -->
-<h2 class="news-one">RELATED NEWS</h2>
+<h2 class="news-one" id="related-news">RELATED NEWS</h2>
 <!-- /wp:heading -->
 
 <!-- wp:media-text {"mediaId":11,"mediaLink":"http://localhost:8888/?attachment_id=11","mediaType":"image","mediaWidth":42,"className":"img-text"} -->
 <div class="wp-block-media-text alignwide is-stacked-on-mobile img-text" style="grid-template-columns:42% auto"><figure class="wp-block-media-text__media"><img src="http://localhost:8888/wp-content/uploads/2021/10/Rectangle-4-2.png" alt="" class="wp-image-11 size-full"/></figure><div class="wp-block-media-text__content"><!-- wp:heading {"level":3,"className":"blog_news"} -->
-<h3 class="blog_news">Bassel Khartabil Fellowship Awarded to Tarek Loubani-Using Open Access to Combat COVID-19 </h3>
+<h3 class="blog_news" id="bassel-khartabil-fellowship-awarded-to-tarek-loubani-using-open-access-to-combat-covid-19">Bassel Khartabil Fellowship Awarded to Tarek Loubani-Using Open Access to Combat COVID-19 </h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"left","textColor":"tomato","className":"name_victoria"} -->
-<p class="has-text-align-left name_victoria has-tomato-color has-text-color"><span class="has-inline-color has-tomato-color">Victoria Heath</span> <span class="has-inline-color has-black-color">April 2, 2020</span></p>
+<p class="has-text-align-left name_victoria has-tomato-color has-text-color"><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-tomato-color">Victoria Heath</mark> <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-black-color">April 2, 2020</mark></p>
 <!-- /wp:paragraph --></div></div>
 <!-- /wp:media-text -->
 
-<!-- wp:buttons {"contentJustification":"right"} -->
-<div class="wp-block-buttons is-content-justification-right"><!-- wp:button {"className":"wp-button is-style-fill"} -->
+<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"right","orientation":"horizontal"}} -->
+<div class="wp-block-buttons"><!-- wp:button {"className":"wp-button is-style-fill"} -->
 <div class="wp-block-button wp-button is-style-fill"><a class="wp-block-button__link">QA COMMUNITY AND OUTREACH </a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
@@ -1203,8 +1285,8 @@
 		<wp:post_id>13</wp:post_id>
 		<wp:post_date><![CDATA[2021-10-28 19:09:46]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-10-28 19:09:46]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2021-10-28 19:09:46]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2021-10-28 19:09:46]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2022-02-19 12:10:52]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-02-19 12:10:52]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[open-policy]]></wp:post_name>
@@ -1265,7 +1347,7 @@
 							</item>
 					<item>
 		<title><![CDATA[Better Sharing Brighter Future]]></title>
-		<link>http://127.0.0.1:8000/</link>
+		<link>http://127.0.0.1:8000/better-sharing-brighter-future/</link>
 		<pubDate>Tue, 05 Oct 2021 09:23:39 +0000</pubDate>
 		<dc:creator><![CDATA[godsonmuluh]]></dc:creator>
 		<guid isPermaLink="false">http://localhost:8080/?page_id=2</guid>
@@ -1279,7 +1361,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons -->
-<div class="wp-block-buttons"><!-- wp:button {"textColor":"white","style":{"color":{"background":"#c74200"},"border":{"radius":3}},"className":"is-style-fill"} -->
+<div class="wp-block-buttons"><!-- wp:button {"textColor":"white","style":{"color":{"background":"#c74200"},"border":{"radius":"3px"}},"className":"is-style-fill"} -->
 <div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-white-color has-text-color has-background" style="border-radius:3px;background-color:#c74200">Learn more</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
@@ -1292,9 +1374,9 @@
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
-<!-- wp:group {"align":"full","backgroundColor":"tomato","textColor":"white"} -->
-<div class="wp-block-group alignfull has-white-color has-tomato-background-color has-text-color has-background"><!-- wp:heading {"textColor":"white"} -->
-<h2 class="has-white-color has-text-color">The nonprofit behind the licenses and tools the world uses to share</h2>
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"4rem","right":"4rem","bottom":"4rem","left":"4rem"}}},"backgroundColor":"tomato","textColor":"white"} -->
+<div class="wp-block-group alignfull has-white-color has-tomato-background-color has-text-color has-background" style="padding-top:4rem;padding-right:4rem;padding-bottom:4rem;padding-left:4rem"><!-- wp:heading {"textColor":"white"} -->
+<h2 class="has-white-color has-text-color" id="the-nonprofit-behind-the-licenses-and-tools-the-world-uses-to-share">The nonprofit behind the licenses and tools the world uses to share</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -1372,9 +1454,9 @@
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
-<!-- wp:group {"align":"full","backgroundColor":"gold","textColor":"black"} -->
-<div class="wp-block-group alignfull has-black-color has-gold-background-color has-text-color has-background"><!-- wp:heading -->
-<h2>Creating a brighter future through better, more ethical sharing</h2>
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"4rem","right":"4rem","bottom":"4rem","left":"4rem"}}},"backgroundColor":"gold","textColor":"black"} -->
+<div class="wp-block-group alignfull has-black-color has-gold-background-color has-text-color has-background" style="padding-top:4rem;padding-right:4rem;padding-bottom:4rem;padding-left:4rem"><!-- wp:heading -->
+<h2 id="creating-a-brighter-future-through-better-more-ethical-sharing">Creating a brighter future through better, more ethical sharing</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -1390,7 +1472,7 @@
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:heading -->
-<h2>Advocacy</h2>
+<h2 id="advocacy">Advocacy</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -1398,7 +1480,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2>Innovation</h2>
+<h2 id="innovation">Innovation</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -1406,7 +1488,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2>Capacity building</h2>
+<h2 id="capacity-building">Capacity building</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -1419,11 +1501,11 @@
 		<wp:post_id>23</wp:post_id>
 		<wp:post_date><![CDATA[2021-10-05 09:23:39]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-10-05 09:23:39]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-02-08 10:06:17]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-02-08 10:06:17]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2022-02-19 11:17:53]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-02-19 11:17:53]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[open]]></wp:ping_status>
-		<wp:post_name><![CDATA[sample-page-2]]></wp:post_name>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[better-sharing-brighter-future]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
@@ -1432,7 +1514,7 @@
 		<wp:is_sticky>0</wp:is_sticky>
 														<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-		<wp:meta_value><![CDATA[page-without-header.php]]></wp:meta_value>
+		<wp:meta_value><![CDATA[default]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
@@ -1440,7 +1522,7 @@
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-		<wp:meta_value><![CDATA[page-without-header.php]]></wp:meta_value>
+		<wp:meta_value><![CDATA[default]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
@@ -1448,7 +1530,7 @@
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-		<wp:meta_value><![CDATA[page-without-header.php]]></wp:meta_value>
+		<wp:meta_value><![CDATA[default]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
@@ -1456,7 +1538,7 @@
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-		<wp:meta_value><![CDATA[page-without-header.php]]></wp:meta_value>
+		<wp:meta_value><![CDATA[default]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
@@ -1464,7 +1546,7 @@
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-		<wp:meta_value><![CDATA[page-without-header.php]]></wp:meta_value>
+		<wp:meta_value><![CDATA[default]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
@@ -1472,11 +1554,23 @@
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-		<wp:meta_value><![CDATA[page-without-header.php]]></wp:meta_value>
+		<wp:meta_value><![CDATA[default]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_thumbnail_id]]></wp:meta_key>
 		<wp:meta_value><![CDATA[11]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_yoast_wpseo_content_score]]></wp:meta_key>
+		<wp:meta_value><![CDATA[30]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_yoast_wpseo_estimated-reading-time-minutes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[4]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -1486,14 +1580,14 @@
 		<dc:creator><![CDATA[godsonmuluh]]></dc:creator>
 		<guid isPermaLink="false">http://localhost:8888/?page_id=108</guid>
 		<description></description>
-		<content:encoded><![CDATA[<!-- wp:columns -->
-<div class="wp-block-columns"><!-- wp:column -->
+		<content:encoded><![CDATA[<!-- wp:columns {"style":{"spacing":{"padding":{"top":"1rem","right":"1rem","bottom":"1rem","left":"1rem"}}}} -->
+<div class="wp-block-columns" style="padding-top:1rem;padding-right:1rem;padding-bottom:1rem;padding-left:1rem"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:heading {"level":1} -->
-<h1>ADVOCACY</h1>
+<h1 id="advocacy">ADVOCACY</h1>
 <!-- /wp:heading -->
 
 <!-- wp:heading {"level":4} -->
-<h4>Supporting the Open Movement</h4>
+<h4 id="supporting-the-open-movement">Supporting the Open Movement</h4>
 <!-- /wp:heading -->
 
 <!-- wp:spacer {"height":11} -->
@@ -1512,35 +1606,28 @@
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
-<!-- wp:spacer {"height":48} -->
-<div style="height:48px" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer -->
-
-<!-- wp:heading {"level":1} -->
-<h1>ON-GOING INITIATIVES</h1>
+<!-- wp:group -->
+<div class="wp-block-group"><!-- wp:heading {"level":1} -->
+<h1 id="on-going-initiatives">ON-GOING INITIATIVES</h1>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"dark-gray"} -->
 <p class="has-dark-gray-color has-text-color">Porttitor habitant viverra suspendisse volutpat purus nisl aenean. Ipsum.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:columns -->
-<div class="wp-block-columns"><!-- wp:column -->
+<!-- wp:columns {"style":{"spacing":{"padding":{"top":"0px","right":"0px","bottom":"0px","left":"0px"}}}} -->
+<div class="wp-block-columns" style="padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:separator {"color":"black","align":"center","className":"is-style-wide"} -->
 <hr class="wp-block-separator aligncenter has-text-color has-background has-black-background-color has-black-color is-style-wide"/>
 <!-- /wp:separator -->
 
 <!-- wp:heading -->
-<h2>OPEN POLICY</h2>
+<h2 id="open-policy">OPEN POLICY</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"dark-gray"} -->
-<p class="has-dark-gray-color has-text-color">Description ultrices elementum metus ligula pharetra litora class massa.</p>
+<p class="has-dark-gray-color has-text-color">Description purus lobortis aliquet tristique purus nunc. Nunc, ac vel sit ac nullam pretium dictumst. A varius convallis vestibulum.</p>
 <!-- /wp:paragraph -->
-
-<!-- wp:spacer {"height":29} -->
-<div style="height:29px" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer -->
 
 <!-- wp:paragraph {"align":"right","textColor":"tomato"} -->
 <p class="has-text-align-right has-tomato-color has-text-color"><strong>SEE MORE DETAILS</strong> <img class="wp-image-126" style="width: 19px;" src="http://localhost:8888/wp-content/uploads/2021/10/icons8-external-link-20-2.png" alt=""></p>
@@ -1553,19 +1640,15 @@
 <!-- /wp:separator -->
 
 <!-- wp:heading -->
-<h2>CC GLOBAL SUMMIT</h2>
+<h2 id="cc-global-network">CC GLOBAL SUMMIT</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"dark-gray"} -->
 <p class="has-dark-gray-color has-text-color">Description purus lobortis aliquet tristique purus nunc. Nunc, ac vel sit ac nullam pretium dictumst. A varius convallis vestibulum.</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:spacer {"height":5} -->
-<div style="height:5px" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer -->
-
 <!-- wp:paragraph {"align":"right","textColor":"tomato"} -->
-<p class="has-text-align-right has-tomato-color has-text-color"><strong>VISIT SITE  </strong><img class="wp-image-127" style="width: 20px;" src="http://localhost:8888/wp-content/uploads/2021/10/icons8-external-link-20-2-1.png" alt=""><strong> </strong> <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 172 172" style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"><g fill="#e67e22"><path d="M143.19336,21.43001c-0.26705,0.00844 -0.53341,0.03181 -0.79785,0.06999h-34.89551c-2.58456,-0.03655 -4.98858,1.32136 -6.29153,3.55376c-1.30295,2.2324 -1.30295,4.99342 0,7.22582c1.30295,2.2324 3.70697,3.59031 6.29153,3.55376h18.53256l-66.59961,66.59961c-1.8722,1.79752 -2.62637,4.46674 -1.97164,6.97823c0.65473,2.51149 2.61604,4.4728 5.12753,5.12753c2.51149,0.65473 5.18071,-0.09944 6.97823,-1.97165l66.59961,-66.59961v18.53255c-0.03655,2.58456 1.32136,4.98858 3.55376,6.29153c2.2324,1.30295 4.99342,1.30295 7.22582,0c2.2324,-1.30295 3.59031,-3.70697 3.55376,-6.29153v-34.9235c0.28889,-2.08845 -0.35639,-4.19816 -1.76411,-5.76769c-1.40772,-1.56953 -3.43507,-2.43964 -5.54253,-2.3788zM35.83333,21.5c-7.83362,0 -14.33333,6.49972 -14.33333,14.33333v100.33333c0,7.83362 6.49972,14.33333 14.33333,14.33333h100.33333c7.83362,0 14.33333,-6.49972 14.33333,-14.33333v-43c0.03655,-2.58456 -1.32136,-4.98858 -3.55376,-6.29153c-2.2324,-1.30295 -4.99342,-1.30295 -7.22582,0c-2.2324,1.30295 -3.59031,3.70697 -3.55376,6.29153v43h-100.33333v-100.33333h43c2.58456,0.03655 4.98858,-1.32136 6.29153,-3.55376c1.30295,-2.2324 1.30295,-4.99342 0,-7.22582c-1.30295,-2.2324 -3.70697,-3.59031 -6.29153,-3.55376z"></path></g></path></g></svg></p>
+<p class="has-text-align-right has-tomato-color has-text-color"><strong>VISIT SITE</strong> <img class="wp-image-128" style="width: 20px;" src="http://localhost:8888/wp-content/uploads/2021/10/icons8-external-link-20-2-2.png" alt=""></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
@@ -1575,39 +1658,36 @@
 <!-- /wp:separator -->
 
 <!-- wp:heading -->
-<h2>CC GLOBAL NETWORK</h2>
+<h2 id="cc-global-network">CC GLOBAL NETWORK</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"dark-gray"} -->
-<p class="has-dark-gray-color has-text-color">Description sit velit posuere libero lacinia ut convallis. Vulputate nisl, nascetur quam magna vestibulum dictumst.</p>
+<p class="has-dark-gray-color has-text-color">Description purus lobortis aliquet tristique purus nunc. Nunc, ac vel sit ac nullam pretium dictumst. A varius convallis vestibulum.</p>
 <!-- /wp:paragraph -->
-
-<!-- wp:spacer {"height":1} -->
-<div style="height:1px" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer -->
 
 <!-- wp:paragraph {"align":"right","textColor":"tomato"} -->
 <p class="has-text-align-right has-tomato-color has-text-color"><strong>VISIT SITE</strong> <img class="wp-image-128" style="width: 20px;" src="http://localhost:8888/wp-content/uploads/2021/10/icons8-external-link-20-2-2.png" alt=""></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
-<!-- /wp:columns -->
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
 
 <!-- wp:spacer {"height":63} -->
 <div style="height:63px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
-<!-- wp:columns -->
-<div class="wp-block-columns"><!-- wp:column {"backgroundColor":"soft-tomato"} -->
-<div class="wp-block-column has-soft-tomato-background-color has-background"><!-- wp:heading {"textAlign":"center"} -->
-<h2 class="has-text-align-center">WE RELY ON INDIVIDUAL DONORS TO FUND OUR WORK</h2>
+<!-- wp:columns {"style":{"spacing":{"padding":{"top":"2rem","right":"2rem","bottom":"2rem","left":"2rem"}}},"backgroundColor":"soft-tomato"} -->
+<div class="wp-block-columns has-soft-tomato-background-color has-background" style="padding-top:2rem;padding-right:2rem;padding-bottom:2rem;padding-left:2rem"><!-- wp:column -->
+<div class="wp-block-column"><!-- wp:heading {"textAlign":"center"} -->
+<h2 class="has-text-align-center" id="we-rely-on-individual-donors-to-fund-our-work">WE RELY ON INDIVIDUAL DONORS TO FUND OUR WORK</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center"} -->
 <p class="has-text-align-center">Every donation helps strengthen the open movement, powering open access and innovation everywhere</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:buttons {"contentJustification":"center"} -->
-<div class="wp-block-buttons is-content-justification-center"><!-- wp:button {"backgroundColor":"tomato","width":25,"style":{"border":{"radius":5}}} -->
+<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center","orientation":"horizontal"}} -->
+<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"tomato","width":25,"style":{"border":{"radius":"5px"}}} -->
 <div class="wp-block-button has-custom-width wp-block-button__width-25"><a class="wp-block-button__link has-tomato-background-color has-background" style="border-radius:5px">  <strong>DONATE NOW</strong></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
@@ -1617,8 +1697,8 @@
 		<wp:post_id>592</wp:post_id>
 		<wp:post_date><![CDATA[2021-10-30 11:32:54]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-10-30 11:32:54]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-02-07 17:04:17]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-02-07 17:04:17]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2022-02-19 11:55:24]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-02-19 11:55:24]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[program]]></wp:post_name>
@@ -1805,8 +1885,8 @@
 		<wp:post_id>62827</wp:post_id>
 		<wp:post_date><![CDATA[2021-11-02 13:20:53]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-11-02 13:20:53]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-02-07 14:18:41]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-02-07 14:18:41]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2021-11-02 13:20:53]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-11-02 13:20:53]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[about]]></wp:post_name>
@@ -1842,449 +1922,79 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title><![CDATA[Licenses and tools]]></title>
-		<link>http://127.0.0.1:8000/licenses-and-tools/</link>
-		<pubDate>Mon, 07 Feb 2022 15:47:12 +0000</pubDate>
+		<title><![CDATA[What we do]]></title>
+		<link>http://127.0.0.1:8000/what-we-do/</link>
+		<pubDate>Fri, 18 Feb 2022 19:19:19 +0000</pubDate>
 		<dc:creator><![CDATA[godsonmuluh]]></dc:creator>
-		<guid isPermaLink="false">http://127.0.0.1:8000/?p=63048</guid>
+		<guid isPermaLink="false">http://127.0.0.1:8000/what-we-do/</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>63048</wp:post_id>
-		<wp:post_date><![CDATA[2022-02-08 09:55:19]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2022-02-07 15:47:12]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-02-08 09:55:19]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-02-08 09:55:19]]></wp:post_modified_gmt>
+		<wp:post_id>64700</wp:post_id>
+		<wp:post_date><![CDATA[2022-02-18 20:09:15]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-02-18 19:19:19]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-02-18 20:09:15]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-02-18 20:09:15]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[what-we-do]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>9</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="nav_menu" nicename="cc"><![CDATA[CC]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[64700]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[/]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Licenses and tools]]></title>
+		<link>http://127.0.0.1:8000/licenses-and-tools/</link>
+		<pubDate>Fri, 18 Feb 2022 19:19:38 +0000</pubDate>
+		<dc:creator><![CDATA[godsonmuluh]]></dc:creator>
+		<guid isPermaLink="false">http://127.0.0.1:8000/licenses-and-tools/</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>64709</wp:post_id>
+		<wp:post_date><![CDATA[2022-02-18 20:09:22]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-02-18 19:19:38]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-02-18 20:09:22]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-02-18 20:09:22]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[licenses-and-tools]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>22</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="nav_menu" nicename="cc"><![CDATA[CC]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-		<wp:meta_value><![CDATA[0]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[63048]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-		<wp:meta_value><![CDATA[/]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2022-02-07]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[News]]></title>
-		<link>http://127.0.0.1:8000/news/</link>
-		<pubDate>Mon, 07 Feb 2022 15:47:13 +0000</pubDate>
-		<dc:creator><![CDATA[godsonmuluh]]></dc:creator>
-		<guid isPermaLink="false">http://127.0.0.1:8000/?p=63049</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>63049</wp:post_id>
-		<wp:post_date><![CDATA[2022-02-08 09:55:19]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2022-02-07 15:47:13]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-02-08 09:55:19]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-02-08 09:55:19]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[news]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>26</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="nav_menu" nicename="cc"><![CDATA[CC]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-		<wp:meta_value><![CDATA[0]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[63049]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-		<wp:meta_value><![CDATA[/]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2022-02-07]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[Support us]]></title>
-		<link>http://127.0.0.1:8000/support-us/</link>
-		<pubDate>Mon, 07 Feb 2022 15:47:15 +0000</pubDate>
-		<dc:creator><![CDATA[godsonmuluh]]></dc:creator>
-		<guid isPermaLink="false">http://127.0.0.1:8000/?p=63050</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>63050</wp:post_id>
-		<wp:post_date><![CDATA[2022-02-08 09:55:19]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2022-02-07 15:47:15]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-02-08 09:55:19]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-02-08 09:55:19]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[support-us]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>27</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="nav_menu" nicename="cc"><![CDATA[CC]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-		<wp:meta_value><![CDATA[0]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[63050]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-		<wp:meta_value><![CDATA[/]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2022-02-07]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[CC Global Summit]]></title>
-		<link>http://127.0.0.1:8000/cc-global-summit/</link>
-		<pubDate>Mon, 07 Feb 2022 17:21:35 +0000</pubDate>
-		<dc:creator><![CDATA[godsonmuluh]]></dc:creator>
-		<guid isPermaLink="false">http://127.0.0.1:8000/?p=63061</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>63061</wp:post_id>
-		<wp:post_date><![CDATA[2022-02-08 09:55:18]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2022-02-07 17:21:35]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-02-08 09:55:18]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-02-08 09:55:18]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[cc-global-summit]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>13</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="nav_menu" nicename="cc"><![CDATA[CC]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-		<wp:meta_value><![CDATA[63059]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[63061]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-		<wp:meta_value><![CDATA[https://summit.creativecommons.org]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2022-02-07]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[CC Global Network]]></title>
-		<link>http://127.0.0.1:8000/cc-global-network/</link>
-		<pubDate>Mon, 07 Feb 2022 17:27:27 +0000</pubDate>
-		<dc:creator><![CDATA[godsonmuluh]]></dc:creator>
-		<guid isPermaLink="false">http://127.0.0.1:8000/?p=63062</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>63062</wp:post_id>
-		<wp:post_date><![CDATA[2022-02-08 09:55:18]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2022-02-07 17:27:27]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-02-08 09:55:18]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-02-08 09:55:18]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[cc-global-network]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>14</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="nav_menu" nicename="cc"><![CDATA[CC]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-		<wp:meta_value><![CDATA[63059]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[63062]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-		<wp:meta_value><![CDATA[https://network.creativecommons.org]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2022-02-07]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[Innovation]]></title>
-		<link>http://127.0.0.1:8000/innovation/</link>
-		<pubDate>Mon, 07 Feb 2022 17:30:04 +0000</pubDate>
-		<dc:creator><![CDATA[godsonmuluh]]></dc:creator>
-		<guid isPermaLink="false">http://127.0.0.1:8000/?p=63063</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>63063</wp:post_id>
-		<wp:post_date><![CDATA[2022-02-08 09:55:18]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2022-02-07 17:30:04]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-02-08 09:55:18]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-02-08 09:55:18]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[innovation]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>15</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="nav_menu" nicename="cc"><![CDATA[CC]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-		<wp:meta_value><![CDATA[63047]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[63063]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-		<wp:meta_value><![CDATA[/]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2022-02-07]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[CC Open Source]]></title>
-		<link>http://127.0.0.1:8000/cc-open-source/</link>
-		<pubDate>Mon, 07 Feb 2022 17:32:56 +0000</pubDate>
-		<dc:creator><![CDATA[godsonmuluh]]></dc:creator>
-		<guid isPermaLink="false">http://127.0.0.1:8000/?p=63064</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>63064</wp:post_id>
-		<wp:post_date><![CDATA[2022-02-08 09:55:18]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2022-02-07 17:32:56]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-02-08 09:55:18]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-02-08 09:55:18]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[cc-open-source]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>16</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="nav_menu" nicename="cc"><![CDATA[CC]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-		<wp:meta_value><![CDATA[63063]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[63064]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-		<wp:meta_value><![CDATA[https://opensource.creativecommons.org/]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2022-02-07]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[CC Legal Database]]></title>
-		<link>http://127.0.0.1:8000/cc-legal-database/</link>
-		<pubDate>Tue, 08 Feb 2022 09:46:44 +0000</pubDate>
-		<dc:creator><![CDATA[godsonmuluh]]></dc:creator>
-		<guid isPermaLink="false">http://127.0.0.1:8000/?p=63071</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>63071</wp:post_id>
-		<wp:post_date><![CDATA[2022-02-08 09:55:18]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2022-02-08 09:46:44]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-02-08 09:55:18]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-02-08 09:55:18]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[cc-legal-database]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>18</wp:menu_order>
@@ -2298,353 +2008,11 @@
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-		<wp:meta_value><![CDATA[63063]]></wp:meta_value>
+		<wp:meta_value><![CDATA[0]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[63071]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-		<wp:meta_value><![CDATA[https://legaldb.creativecommons.org]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[Capacity Building]]></title>
-		<link>http://127.0.0.1:8000/capacity-building/</link>
-		<pubDate>Tue, 08 Feb 2022 09:47:33 +0000</pubDate>
-		<dc:creator><![CDATA[godsonmuluh]]></dc:creator>
-		<guid isPermaLink="false">http://127.0.0.1:8000/?p=63072</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>63072</wp:post_id>
-		<wp:post_date><![CDATA[2022-02-08 09:55:18]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2022-02-08 09:47:33]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-02-08 09:55:18]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-02-08 09:55:18]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[capacity-building]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>19</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="nav_menu" nicename="cc"><![CDATA[CC]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-		<wp:meta_value><![CDATA[63047]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[63072]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-		<wp:meta_value><![CDATA[/]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[Open Education]]></title>
-		<link>http://127.0.0.1:8000/open-education/</link>
-		<pubDate>Tue, 08 Feb 2022 09:48:35 +0000</pubDate>
-		<dc:creator><![CDATA[godsonmuluh]]></dc:creator>
-		<guid isPermaLink="false">http://127.0.0.1:8000/?p=63073</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>63073</wp:post_id>
-		<wp:post_date><![CDATA[2022-02-08 09:55:18]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2022-02-08 09:48:35]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-02-08 09:55:18]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-02-08 09:55:18]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[open-education]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>12</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="nav_menu" nicename="cc"><![CDATA[CC]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-		<wp:meta_value><![CDATA[63059]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[63073]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-		<wp:meta_value><![CDATA[https://creativecommons.org/about/program-areas/education-oer/]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[CC Certificate]]></title>
-		<link>http://127.0.0.1:8000/cc-certificate/</link>
-		<pubDate>Tue, 08 Feb 2022 09:51:25 +0000</pubDate>
-		<dc:creator><![CDATA[godsonmuluh]]></dc:creator>
-		<guid isPermaLink="false">http://127.0.0.1:8000/?p=63074</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>63074</wp:post_id>
-		<wp:post_date><![CDATA[2022-02-08 09:55:18]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2022-02-08 09:51:25]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-02-08 09:55:18]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-02-08 09:55:18]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[cc-certificate]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>20</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="nav_menu" nicename="cc"><![CDATA[CC]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-		<wp:meta_value><![CDATA[63072]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[63074]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-		<wp:meta_value><![CDATA[https://certificates.creativecommons.org/]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[CC Global Network]]></title>
-		<link>http://127.0.0.1:8000/cc-global-network-2/</link>
-		<pubDate>Tue, 08 Feb 2022 09:51:26 +0000</pubDate>
-		<dc:creator><![CDATA[godsonmuluh]]></dc:creator>
-		<guid isPermaLink="false">http://127.0.0.1:8000/?p=63075</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>63075</wp:post_id>
-		<wp:post_date><![CDATA[2022-02-08 09:55:18]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2022-02-08 09:51:26]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-02-08 09:55:18]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-02-08 09:55:18]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[cc-global-network-2]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>21</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="nav_menu" nicename="cc"><![CDATA[CC]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-		<wp:meta_value><![CDATA[63072]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[63075]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-		<wp:meta_value><![CDATA[https://network.creativecommons.org/]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[CC License Chooser]]></title>
-		<link>http://127.0.0.1:8000/cc-license-chooser-2/</link>
-		<pubDate>Tue, 08 Feb 2022 09:54:58 +0000</pubDate>
-		<dc:creator><![CDATA[godsonmuluh]]></dc:creator>
-		<guid isPermaLink="false">http://127.0.0.1:8000/?p=63076</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>63076</wp:post_id>
-		<wp:post_date><![CDATA[2022-02-08 09:55:18]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2022-02-08 09:54:58]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-02-08 09:55:18]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-02-08 09:55:18]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[cc-license-chooser-2]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>17</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="nav_menu" nicename="cc"><![CDATA[CC]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-		<wp:meta_value><![CDATA[63063]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[63076]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-		<wp:meta_value><![CDATA[https://chooser-beta.creativecommons.org/]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[Education and Support]]></title>
-		<link>http://127.0.0.1:8000/education-and-support/</link>
-		<pubDate>Tue, 08 Feb 2022 09:54:58 +0000</pubDate>
-		<dc:creator><![CDATA[godsonmuluh]]></dc:creator>
-		<guid isPermaLink="false">http://127.0.0.1:8000/?p=63077</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>63077</wp:post_id>
-		<wp:post_date><![CDATA[2022-02-08 09:55:19]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2022-02-08 09:54:58]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-02-08 09:55:19]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-02-08 09:55:19]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[education-and-support]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>23</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="nav_menu" nicename="cc"><![CDATA[CC]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-		<wp:meta_value><![CDATA[63048]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[63077]]></wp:meta_value>
+		<wp:meta_value><![CDATA[64709]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
@@ -2669,24 +2037,24 @@
 							</item>
 					<item>
 		<title><![CDATA[]]></title>
-		<link>http://127.0.0.1:8000/63078/</link>
-		<pubDate>Tue, 08 Feb 2022 09:54:58 +0000</pubDate>
+		<link>http://127.0.0.1:8000/64725/</link>
+		<pubDate>Fri, 18 Feb 2022 19:20:29 +0000</pubDate>
 		<dc:creator><![CDATA[godsonmuluh]]></dc:creator>
-		<guid isPermaLink="false">http://127.0.0.1:8000/?p=63078</guid>
+		<guid isPermaLink="false">http://127.0.0.1:8000/64725/</guid>
 		<description></description>
 		<content:encoded><![CDATA[ ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>63078</wp:post_id>
-		<wp:post_date><![CDATA[2022-02-08 09:55:19]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2022-02-08 09:54:58]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-02-08 09:55:19]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-02-08 09:55:19]]></wp:post_modified_gmt>
+		<wp:post_id>64725</wp:post_id>
+		<wp:post_date><![CDATA[2022-02-18 20:09:26]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-02-18 19:20:29]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-02-18 20:09:26]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-02-18 20:09:26]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[63078]]></wp:post_name>
+		<wp:post_name><![CDATA[64725]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>24</wp:menu_order>
+		<wp:menu_order>20</wp:menu_order>
 		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
@@ -2697,7 +2065,7 @@
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-		<wp:meta_value><![CDATA[63048]]></wp:meta_value>
+		<wp:meta_value><![CDATA[64709]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
@@ -2725,44 +2093,44 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title><![CDATA[CC's Stewardship]]></title>
-		<link>http://127.0.0.1:8000/ccs-stewardship/</link>
-		<pubDate>Tue, 08 Feb 2022 09:54:58 +0000</pubDate>
+		<title><![CDATA[]]></title>
+		<link>http://127.0.0.1:8000/64744/</link>
+		<pubDate>Fri, 18 Feb 2022 19:44:40 +0000</pubDate>
 		<dc:creator><![CDATA[godsonmuluh]]></dc:creator>
-		<guid isPermaLink="false">http://127.0.0.1:8000/?p=63079</guid>
+		<guid isPermaLink="false">http://127.0.0.1:8000/?p=64744</guid>
 		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
+		<content:encoded><![CDATA[ ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>63079</wp:post_id>
-		<wp:post_date><![CDATA[2022-02-08 09:55:19]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2022-02-08 09:54:58]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-02-08 09:55:19]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-02-08 09:55:19]]></wp:post_modified_gmt>
+		<wp:post_id>64744</wp:post_id>
+		<wp:post_date><![CDATA[2022-02-18 20:09:16]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-02-18 19:44:40]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-02-18 20:09:16]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-02-18 20:09:16]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[ccs-stewardship]]></wp:post_name>
+		<wp:post_name><![CDATA[64744]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>25</wp:menu_order>
+		<wp:menu_order>10</wp:menu_order>
 		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
 										<category domain="nav_menu" nicename="cc"><![CDATA[CC]]></category>
 						<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-		<wp:meta_value><![CDATA[63048]]></wp:meta_value>
+		<wp:meta_value><![CDATA[64700]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[63079]]></wp:meta_value>
+		<wp:meta_value><![CDATA[64740]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		<wp:meta_value><![CDATA[page]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
@@ -2778,7 +2146,691 @@
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-		<wp:meta_value><![CDATA[/]]></wp:meta_value>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[]]></title>
+		<link>http://127.0.0.1:8000/64745/</link>
+		<pubDate>Fri, 18 Feb 2022 19:44:41 +0000</pubDate>
+		<dc:creator><![CDATA[godsonmuluh]]></dc:creator>
+		<guid isPermaLink="false">http://127.0.0.1:8000/?p=64745</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>64745</wp:post_id>
+		<wp:post_date><![CDATA[2022-02-18 20:09:16]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-02-18 19:44:41]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-02-18 20:09:16]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-02-18 20:09:16]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[64745]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>11</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="nav_menu" nicename="cc"><![CDATA[CC]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[64700]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[64742]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[]]></title>
+		<link>http://127.0.0.1:8000/64746/</link>
+		<pubDate>Fri, 18 Feb 2022 19:44:48 +0000</pubDate>
+		<dc:creator><![CDATA[godsonmuluh]]></dc:creator>
+		<guid isPermaLink="false">http://127.0.0.1:8000/?p=64746</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>64746</wp:post_id>
+		<wp:post_date><![CDATA[2022-02-18 20:09:21]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-02-18 19:44:48]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-02-18 20:09:21]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-02-18 20:09:21]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[64746]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>17</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="nav_menu" nicename="cc"><![CDATA[CC]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[64700]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[64737]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[]]></title>
+		<link>http://127.0.0.1:8000/64747/</link>
+		<pubDate>Fri, 18 Feb 2022 19:44:47 +0000</pubDate>
+		<dc:creator><![CDATA[godsonmuluh]]></dc:creator>
+		<guid isPermaLink="false">http://127.0.0.1:8000/?p=64747</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>64747</wp:post_id>
+		<wp:post_date><![CDATA[2022-02-18 20:09:20]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-02-18 19:44:47]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-02-18 20:09:20]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-02-18 20:09:20]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[64747]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>16</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="nav_menu" nicename="cc"><![CDATA[CC]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[64700]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[64735]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[]]></title>
+		<link>http://127.0.0.1:8000/64748/</link>
+		<pubDate>Fri, 18 Feb 2022 19:44:46 +0000</pubDate>
+		<dc:creator><![CDATA[godsonmuluh]]></dc:creator>
+		<guid isPermaLink="false">http://127.0.0.1:8000/?p=64748</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>64748</wp:post_id>
+		<wp:post_date><![CDATA[2022-02-18 20:09:19]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-02-18 19:44:46]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-02-18 20:09:19]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-02-18 20:09:19]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[64748]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>15</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="nav_menu" nicename="cc"><![CDATA[CC]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[64700]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[64733]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[]]></title>
+		<link>http://127.0.0.1:8000/64749/</link>
+		<pubDate>Fri, 18 Feb 2022 19:44:44 +0000</pubDate>
+		<dc:creator><![CDATA[godsonmuluh]]></dc:creator>
+		<guid isPermaLink="false">http://127.0.0.1:8000/?p=64749</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>64749</wp:post_id>
+		<wp:post_date><![CDATA[2022-02-18 20:09:18]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-02-18 19:44:44]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-02-18 20:09:18]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-02-18 20:09:18]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[64749]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>14</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="nav_menu" nicename="cc"><![CDATA[CC]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[64700]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[64731]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[]]></title>
+		<link>http://127.0.0.1:8000/64750/</link>
+		<pubDate>Fri, 18 Feb 2022 19:44:43 +0000</pubDate>
+		<dc:creator><![CDATA[godsonmuluh]]></dc:creator>
+		<guid isPermaLink="false">http://127.0.0.1:8000/?p=64750</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>64750</wp:post_id>
+		<wp:post_date><![CDATA[2022-02-18 20:09:18]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-02-18 19:44:43]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-02-18 20:09:18]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-02-18 20:09:18]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[64750]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>13</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="nav_menu" nicename="cc"><![CDATA[CC]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[64700]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[64728]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[]]></title>
+		<link>http://127.0.0.1:8000/64751/</link>
+		<pubDate>Fri, 18 Feb 2022 19:44:42 +0000</pubDate>
+		<dc:creator><![CDATA[godsonmuluh]]></dc:creator>
+		<guid isPermaLink="false">http://127.0.0.1:8000/?p=64751</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>64751</wp:post_id>
+		<wp:post_date><![CDATA[2022-02-18 20:09:17]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-02-18 19:44:42]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-02-18 20:09:17]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-02-18 20:09:17]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[64751]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>12</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="nav_menu" nicename="cc"><![CDATA[CC]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[64700]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[64726]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[]]></title>
+		<link>http://127.0.0.1:8000/64752/</link>
+		<pubDate>Fri, 18 Feb 2022 19:46:35 +0000</pubDate>
+		<dc:creator><![CDATA[godsonmuluh]]></dc:creator>
+		<guid isPermaLink="false">http://127.0.0.1:8000/?p=64752</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>64752</wp:post_id>
+		<wp:post_date><![CDATA[2022-02-18 20:09:29]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-02-18 19:46:35]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-02-18 20:09:29]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-02-18 20:09:29]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[64752]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>23</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="nav_menu" nicename="cc"><![CDATA[CC]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[595]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[]]></title>
+		<link>http://127.0.0.1:8000/64755/</link>
+		<pubDate>Fri, 18 Feb 2022 19:47:56 +0000</pubDate>
+		<dc:creator><![CDATA[godsonmuluh]]></dc:creator>
+		<guid isPermaLink="false">http://127.0.0.1:8000/?p=64755</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>64755</wp:post_id>
+		<wp:post_date><![CDATA[2022-02-18 20:09:29]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-02-18 19:47:56]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-02-18 20:09:29]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-02-18 20:09:29]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[64755]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>22</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="nav_menu" nicename="cc"><![CDATA[CC]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[64753]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[]]></title>
+		<link>http://127.0.0.1:8000/64772/</link>
+		<pubDate>Fri, 18 Feb 2022 20:07:07 +0000</pubDate>
+		<dc:creator><![CDATA[godsonmuluh]]></dc:creator>
+		<guid isPermaLink="false">http://127.0.0.1:8000/?p=64772</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>64772</wp:post_id>
+		<wp:post_date><![CDATA[2022-02-18 20:09:15]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-02-18 20:07:07]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-02-18 20:09:15]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-02-18 20:09:15]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[64772]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>8</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="nav_menu" nicename="cc"><![CDATA[CC]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[64699]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[64770]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[CC’s Stewardship]]></title>
+		<link>http://127.0.0.1:8000/ccs-stewardship-2/</link>
+		<pubDate>Fri, 18 Feb 2022 20:09:27 +0000</pubDate>
+		<dc:creator><![CDATA[godsonmuluh]]></dc:creator>
+		<guid isPermaLink="false">http://127.0.0.1:8000/?p=64777</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>64777</wp:post_id>
+		<wp:post_date><![CDATA[2022-02-18 20:09:27]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-02-18 20:09:27]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-02-18 20:09:27]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-02-18 20:09:27]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[ccs-stewardship-2]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>21</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="nav_menu" nicename="cc"><![CDATA[CC]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[64709]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[64775]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[]]></title>
+		<link>http://127.0.0.1:8000/64778/</link>
+		<pubDate>Fri, 18 Feb 2022 20:09:24 +0000</pubDate>
+		<dc:creator><![CDATA[godsonmuluh]]></dc:creator>
+		<guid isPermaLink="false">http://127.0.0.1:8000/?p=64778</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>64778</wp:post_id>
+		<wp:post_date><![CDATA[2022-02-18 20:09:24]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-02-18 20:09:24]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-02-18 20:09:24]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-02-18 20:09:24]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[64778]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>19</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="nav_menu" nicename="cc"><![CDATA[CC]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[64709]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[64773]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -2790,7 +2842,7 @@
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:html -->
 <script src="https://unpkg.com/vue"></script>
-<script src="https://unpkg.com/@creativecommons/chooser@0.2.x/dist/license-chooser.min.js"></script>
+<script src="https://unpkg.com/@creativecommons/chooser@0.x.x/dist/license-chooser.min.js"></script>
 
 <license-chooser></license-chooser>
 <!-- /wp:html -->
@@ -2802,8 +2854,8 @@
 		<wp:post_id>330</wp:post_id>
 		<wp:post_date><![CDATA[2021-12-17 16:11:29]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-12-17 16:11:29]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-02-08 09:58:15]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-02-08 09:58:15]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2022-02-18 20:13:02]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-02-18 20:13:02]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[chooser]]></wp:post_name>
@@ -6187,15 +6239,15 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title><![CDATA[OUR TEAM]]></title>
+		<title><![CDATA[Our Team]]></title>
 		<link>http://127.0.0.1:8000/our-team/</link>
 		<pubDate>Wed, 19 Jan 2022 16:26:02 +0000</pubDate>
 		<dc:creator><![CDATA[godsonmuluh]]></dc:creator>
 		<guid isPermaLink="false">http://127.0.0.1:8000/?page_id=62887</guid>
 		<description></description>
-		<content:encoded><![CDATA[<!-- wp:columns {"verticalAlignment":"top","align":"full","style":{"color":{"background":"#f5f5f5"}},"textColor":"black"} -->
-<div class="wp-block-columns alignfull are-vertically-aligned-top has-black-color has-text-color has-background" style="background-color:#f5f5f5"><!-- wp:column {"verticalAlignment":"top","style":{"color":{"background":"#f5f5f5"}}} -->
-<div class="wp-block-column is-vertically-aligned-top has-background" style="background-color:#f5f5f5"><!-- wp:post-title {"level":1,"align":"full"} /-->
+		<content:encoded><![CDATA[<!-- wp:columns {"verticalAlignment":"center","align":"full","style":{"color":{"background":"#f5f5f5"},"spacing":{"padding":{"top":"0rem","right":"0rem","bottom":"0rem","left":"0rem"}}},"textColor":"black"} -->
+<div class="wp-block-columns alignfull are-vertically-aligned-center has-black-color has-text-color has-background" style="background-color:#f5f5f5;padding-top:0rem;padding-right:0rem;padding-bottom:0rem;padding-left:0rem"><!-- wp:column {"verticalAlignment":"center","style":{"color":{"background":"#f5f5f5"},"spacing":{"padding":{"top":"1rem","right":"1rem","bottom":"1rem","left":"1rem"}}}} -->
+<div class="wp-block-column is-vertically-aligned-center has-background" style="background-color:#f5f5f5;padding-top:1rem;padding-right:1rem;padding-bottom:1rem;padding-left:1rem"><!-- wp:post-title {"level":1,"align":"full"} /-->
 
 <!-- wp:paragraph {"style":{"typography":{"fontSize":"26px"}}} -->
 <p style="font-size:26px"><meta charset="utf-8">Creative Commons is a network of staff, board, emeritus, advisory council, audit committee, and affiliates around the world.</p>
@@ -6210,7 +6262,7 @@
 
 <!-- wp:column {"width":"50%"} -->
 <div class="wp-block-column" style="flex-basis:50%"><!-- wp:heading {"backgroundColor":"white"} -->
-<h2 class="has-white-background-color has-background"><meta charset="utf-8">STAFF</h2>
+<h2 class="has-white-background-color has-background" id="staff"><meta charset="utf-8">STAFF</h2>
 <!-- /wp:heading -->
 
 <!-- wp:columns {"backgroundColor":"white"} -->
@@ -6278,8 +6330,8 @@
 		<wp:post_id>63038</wp:post_id>
 		<wp:post_date><![CDATA[2022-01-19 16:26:02]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2022-01-19 16:26:02]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-01-19 16:26:02]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-01-19 16:26:02]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2022-02-19 11:41:47]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-02-19 11:41:47]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[our-team]]></wp:post_name>
@@ -6289,7 +6341,588 @@
 		<wp:post_type><![CDATA[page]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-														</item>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+		<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_yoast_wpseo_content_score]]></wp:meta_key>
+		<wp:meta_value><![CDATA[90]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_yoast_wpseo_estimated-reading-time-minutes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[CC Global Summit]]></title>
+		<link>http://127.0.0.1:8000/cc-global-summit/</link>
+		<pubDate>Fri, 18 Feb 2022 19:31:53 +0000</pubDate>
+		<dc:creator><![CDATA[godsonmuluh]]></dc:creator>
+		<guid isPermaLink="false">http://127.0.0.1:8000/?page_id=64726</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:post-title /-->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>64726</wp:post_id>
+		<wp:post_date><![CDATA[2022-02-18 19:31:53]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-02-18 19:31:53]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-02-18 19:33:28]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-02-18 19:33:28]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[cc-global-summit]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_yoast_wpseo_estimated-reading-time-minutes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_yoast_wpseo_content_score]]></wp:meta_key>
+		<wp:meta_value><![CDATA[60]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[CC Global Network]]></title>
+		<link>http://127.0.0.1:8000/cc-global-network/</link>
+		<pubDate>Fri, 18 Feb 2022 19:32:59 +0000</pubDate>
+		<dc:creator><![CDATA[godsonmuluh]]></dc:creator>
+		<guid isPermaLink="false">http://127.0.0.1:8000/?page_id=64728</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:post-title /-->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>64728</wp:post_id>
+		<wp:post_date><![CDATA[2022-02-18 19:32:59]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-02-18 19:32:59]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-02-18 19:33:00]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-02-18 19:33:00]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[cc-global-network]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_yoast_wpseo_content_score]]></wp:meta_key>
+		<wp:meta_value><![CDATA[60]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_yoast_wpseo_estimated-reading-time-minutes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[CC Open Source]]></title>
+		<link>http://127.0.0.1:8000/cc-open-source/</link>
+		<pubDate>Fri, 18 Feb 2022 19:34:02 +0000</pubDate>
+		<dc:creator><![CDATA[godsonmuluh]]></dc:creator>
+		<guid isPermaLink="false">http://127.0.0.1:8000/?page_id=64731</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:post-title /-->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>64731</wp:post_id>
+		<wp:post_date><![CDATA[2022-02-18 19:34:02]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-02-18 19:34:02]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-02-18 19:34:04]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-02-18 19:34:04]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[cc-open-source]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_yoast_wpseo_content_score]]></wp:meta_key>
+		<wp:meta_value><![CDATA[60]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_yoast_wpseo_estimated-reading-time-minutes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[CC License Chooser]]></title>
+		<link>http://127.0.0.1:8000/cc-license-chooser/</link>
+		<pubDate>Fri, 18 Feb 2022 19:34:41 +0000</pubDate>
+		<dc:creator><![CDATA[godsonmuluh]]></dc:creator>
+		<guid isPermaLink="false">http://127.0.0.1:8000/?page_id=64733</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:post-title /-->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>64733</wp:post_id>
+		<wp:post_date><![CDATA[2022-02-18 19:34:41]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-02-18 19:34:41]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-02-18 19:34:44]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-02-18 19:34:44]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[cc-license-chooser]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_yoast_wpseo_content_score]]></wp:meta_key>
+		<wp:meta_value><![CDATA[60]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_yoast_wpseo_estimated-reading-time-minutes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[CC Legal Database]]></title>
+		<link>http://127.0.0.1:8000/cc-legal-database/</link>
+		<pubDate>Fri, 18 Feb 2022 19:35:19 +0000</pubDate>
+		<dc:creator><![CDATA[godsonmuluh]]></dc:creator>
+		<guid isPermaLink="false">http://127.0.0.1:8000/?page_id=64735</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:post-title /-->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>64735</wp:post_id>
+		<wp:post_date><![CDATA[2022-02-18 19:35:19]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-02-18 19:35:19]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-02-18 19:35:20]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-02-18 19:35:20]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[cc-legal-database]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_yoast_wpseo_content_score]]></wp:meta_key>
+		<wp:meta_value><![CDATA[60]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_yoast_wpseo_estimated-reading-time-minutes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[CC Certificate]]></title>
+		<link>http://127.0.0.1:8000/cc-certificate/</link>
+		<pubDate>Fri, 18 Feb 2022 19:36:04 +0000</pubDate>
+		<dc:creator><![CDATA[godsonmuluh]]></dc:creator>
+		<guid isPermaLink="false">http://127.0.0.1:8000/?page_id=64737</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:post-title /-->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>64737</wp:post_id>
+		<wp:post_date><![CDATA[2022-02-18 19:36:04]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-02-18 19:36:04]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-02-18 19:36:05]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-02-18 19:36:05]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[cc-certificate]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_yoast_wpseo_content_score]]></wp:meta_key>
+		<wp:meta_value><![CDATA[60]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_yoast_wpseo_estimated-reading-time-minutes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Open Policy]]></title>
+		<link>http://127.0.0.1:8000/open-policy-2/</link>
+		<pubDate>Fri, 18 Feb 2022 19:39:39 +0000</pubDate>
+		<dc:creator><![CDATA[godsonmuluh]]></dc:creator>
+		<guid isPermaLink="false">http://127.0.0.1:8000/?page_id=64740</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:post-title /-->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>64740</wp:post_id>
+		<wp:post_date><![CDATA[2022-02-18 19:39:39]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-02-18 19:39:39]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-02-18 19:39:40]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-02-18 19:39:40]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[open-policy-2]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_yoast_wpseo_content_score]]></wp:meta_key>
+		<wp:meta_value><![CDATA[60]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_yoast_wpseo_estimated-reading-time-minutes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Open Education]]></title>
+		<link>http://127.0.0.1:8000/open-education/</link>
+		<pubDate>Fri, 18 Feb 2022 19:41:49 +0000</pubDate>
+		<dc:creator><![CDATA[godsonmuluh]]></dc:creator>
+		<guid isPermaLink="false">http://127.0.0.1:8000/?page_id=64742</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:post-title /-->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>64742</wp:post_id>
+		<wp:post_date><![CDATA[2022-02-18 19:41:49]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-02-18 19:41:49]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-02-18 19:41:52]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-02-18 19:41:52]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[open-education]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_yoast_wpseo_content_score]]></wp:meta_key>
+		<wp:meta_value><![CDATA[60]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_yoast_wpseo_estimated-reading-time-minutes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[News]]></title>
+		<link>http://127.0.0.1:8000/news/</link>
+		<pubDate>Fri, 18 Feb 2022 19:46:00 +0000</pubDate>
+		<dc:creator><![CDATA[godsonmuluh]]></dc:creator>
+		<guid isPermaLink="false">http://127.0.0.1:8000/?page_id=64753</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:post-title /-->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>64753</wp:post_id>
+		<wp:post_date><![CDATA[2022-02-18 19:46:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-02-18 19:46:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-02-18 19:46:02]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-02-18 19:46:02]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[news]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_yoast_wpseo_content_score]]></wp:meta_key>
+		<wp:meta_value><![CDATA[60]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_yoast_wpseo_estimated-reading-time-minutes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Our Strategy]]></title>
+		<link>http://127.0.0.1:8000/our-strategy/</link>
+		<pubDate>Fri, 18 Feb 2022 19:58:08 +0000</pubDate>
+		<dc:creator><![CDATA[godsonmuluh]]></dc:creator>
+		<guid isPermaLink="false">http://127.0.0.1:8000/?page_id=64757</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:post-title /-->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>64757</wp:post_id>
+		<wp:post_date><![CDATA[2022-02-18 19:58:08]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-02-18 19:58:08]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-02-18 19:58:16]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-02-18 19:58:16]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[our-strategy]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_yoast_wpseo_content_score]]></wp:meta_key>
+		<wp:meta_value><![CDATA[60]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_yoast_wpseo_estimated-reading-time-minutes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Opportunities]]></title>
+		<link>http://127.0.0.1:8000/opportunities/</link>
+		<pubDate>Fri, 18 Feb 2022 20:01:43 +0000</pubDate>
+		<dc:creator><![CDATA[godsonmuluh]]></dc:creator>
+		<guid isPermaLink="false">http://127.0.0.1:8000/?page_id=64763</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:post-title /-->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>64763</wp:post_id>
+		<wp:post_date><![CDATA[2022-02-18 20:01:43]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-02-18 20:01:43]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-02-18 20:01:46]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-02-18 20:01:46]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[opportunities]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_yoast_wpseo_content_score]]></wp:meta_key>
+		<wp:meta_value><![CDATA[60]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_yoast_wpseo_estimated-reading-time-minutes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Our Board + Advisors]]></title>
+		<link>http://127.0.0.1:8000/our-board-advisors/</link>
+		<pubDate>Fri, 18 Feb 2022 20:03:06 +0000</pubDate>
+		<dc:creator><![CDATA[godsonmuluh]]></dc:creator>
+		<guid isPermaLink="false">http://127.0.0.1:8000/?page_id=64766</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:post-title /-->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>64766</wp:post_id>
+		<wp:post_date><![CDATA[2022-02-18 20:03:06]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-02-18 20:03:06]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-02-18 20:03:09]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-02-18 20:03:09]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[our-board-advisors]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_yoast_wpseo_content_score]]></wp:meta_key>
+		<wp:meta_value><![CDATA[60]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_yoast_wpseo_estimated-reading-time-minutes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Logos]]></title>
+		<link>http://127.0.0.1:8000/logos/</link>
+		<pubDate>Fri, 18 Feb 2022 20:05:19 +0000</pubDate>
+		<dc:creator><![CDATA[godsonmuluh]]></dc:creator>
+		<guid isPermaLink="false">http://127.0.0.1:8000/?page_id=64770</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:post-title /-->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>64770</wp:post_id>
+		<wp:post_date><![CDATA[2022-02-18 20:05:19]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-02-18 20:05:19]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-02-18 20:05:21]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-02-18 20:05:21]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[logos]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_yoast_wpseo_content_score]]></wp:meta_key>
+		<wp:meta_value><![CDATA[60]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_yoast_wpseo_estimated-reading-time-minutes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Education and Support]]></title>
+		<link>http://127.0.0.1:8000/education-and-support/</link>
+		<pubDate>Fri, 18 Feb 2022 20:07:26 +0000</pubDate>
+		<dc:creator><![CDATA[godsonmuluh]]></dc:creator>
+		<guid isPermaLink="false">http://127.0.0.1:8000/?page_id=64773</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:post-title /-->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>64773</wp:post_id>
+		<wp:post_date><![CDATA[2022-02-18 20:07:26]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-02-18 20:07:26]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-02-18 20:07:27]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-02-18 20:07:27]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[education-and-support]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_yoast_wpseo_content_score]]></wp:meta_key>
+		<wp:meta_value><![CDATA[60]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_yoast_wpseo_estimated-reading-time-minutes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Custom Styles]]></title>
+		<link>http://127.0.0.1:8000/wp-global-styles-wp-theme-creativecommons-org/</link>
+		<pubDate>Mon, 14 Feb 2022 07:26:29 +0000</pubDate>
+		<dc:creator><![CDATA[godsonmuluh]]></dc:creator>
+		<guid isPermaLink="false">http://127.0.0.1:8000/wp-global-styles-wp-theme-creativecommons-org/</guid>
+		<description></description>
+		<content:encoded><![CDATA[{"version": 2, "isGlobalStylesUserThemeJSON": true }]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>63085</wp:post_id>
+		<wp:post_date><![CDATA[2022-02-14 07:26:29]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-02-14 07:26:29]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-02-14 07:26:29]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-02-14 07:26:29]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[wp-global-styles-wp-theme-creativecommons-org]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wp_global_styles]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="wp_theme" nicename="wp-theme-creativecommons-org"><![CDATA[wp-theme-creativecommons.org]]></category>
+						</item>
+					<item>
+		<title><![CDATA[CC's Stewardship]]></title>
+		<link>http://127.0.0.1:8000/ccs-stewardship/</link>
+		<pubDate>Fri, 18 Feb 2022 20:08:11 +0000</pubDate>
+		<dc:creator><![CDATA[godsonmuluh]]></dc:creator>
+		<guid isPermaLink="false">http://127.0.0.1:8000/?page_id=64775</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:post-title /-->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>64775</wp:post_id>
+		<wp:post_date><![CDATA[2022-02-18 20:08:11]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-02-18 20:08:11]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-02-18 20:08:13]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-02-18 20:08:13]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[ccs-stewardship]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_yoast_wpseo_content_score]]></wp:meta_key>
+		<wp:meta_value><![CDATA[60]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_yoast_wpseo_estimated-reading-time-minutes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
 				</channel>
 </rss>
 	
