@@ -14,11 +14,6 @@ services:
       - ./cc-legal-tools-data/docs/:/var/www/legal-tools:ro
       # Platform Toolkit
       - ./mp/docs:/var/www/platform/toolkit:ro
-      # WordPress Plugin development
-      - ./wp-plugin-creativecommons-website/:/var/www/html/wp-content/plugins/wp-plugin-creativecommons-website
-      # WordPress Theme development
-      - ./creativecommons-base/:/var/www/html/wp-content/themes/creativecommons-base
-      - ./wp-theme-creativecommons.org/:/var/www/html/wp-content/themes/wp-theme-creativecommons.org
       - wp_data:/var/www/html
 
     environment:
@@ -67,11 +62,14 @@ services:
   composer:
     image: composer/composer
     container_name: cc-base-composer
-    working_dir: /var/www/html/wp-content/plugins/wp-plugin-creativecommons-website/
+    working_dir: /var/www/html/
     command: "install"
     restart: "no"
+    depends_on:
+      - wordpress
     volumes:
-      - ./wp-plugin-creativecommons-website/:/var/www/html/wp-content/plugins/wp-plugin-creativecommons-website
+      - ./composer.json:/var/www/html/composer.json
+      - wp_data:/var/www/html
 
   wordpress-cli:
     volumes_from:
@@ -84,10 +82,6 @@ services:
       WORDPRESS_DB_NAME: "${DB_NAME:-wordpress_db}"
       WORDPRESS_DB_USER: root
       WORDPRESS_DB_PASSWORD: "${DB_ROOT_PASSWORD:-db_password}"
-    command:  >
-      /bin/sh -c '
-      wp plugin install wordpress-seo && wp plugin activate wordpress-seo && wp plugin install ultimate-addons-for-gutenberg && wp plugin activate ultimate-addons-for-gutenberg
-      '
     volumes:
       - wp_data:/var/www/html
       - db_data:/var/lib/mysql
@@ -98,7 +92,6 @@ services:
 volumes:
   db_data:
   wp_data:
-
 
 networks:
   backend:
