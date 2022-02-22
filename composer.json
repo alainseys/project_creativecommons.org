@@ -1,0 +1,50 @@
+{
+    "authors": [
+      {
+        "homepage": "https://creativecommons.org",
+        "name": "Creative Commons"
+      }
+    ],
+    "config": {
+      "allow-plugins": {
+        "composer/installers": true
+      },
+      "vendor-dir": "wp-content/vendor"
+    },
+    "description": "Creative Commons primary WordPress site via Composer",
+    "name": "creativecommons/wordpress-creativecommons-org",
+    "repositories": [
+      {
+        "type": "composer",
+        "url": "https://wpackagist.org"
+      },
+      {
+        "no-api": true,
+        "type": "vcs",
+        "url": "https://github.com/creativecommons/creativecommons-base"
+      },
+      {
+        "no-api": true,
+        "type": "vcs",
+        "url": "https://github.com/creativecommons/wp-plugin-creativecommons-website"
+      },
+      {
+        "no-api": true,
+        "type": "vcs",
+        "url": "https://github.com/creativecommons/wp-theme-creativecommons.org"
+      }
+    ],
+    "require": {
+      "composer/installers": "^1.0",
+      "creativecommons/wp-plugin-creativecommons-website": "0.2.0",
+      "creativecommons/wp-theme-creativecommons.org": "2022.02.1",
+      "wpackagist-plugin/ultimate-addons-for-gutenberg": "1.25.4",
+      "wpackagist-plugin/wordpress-importer": "0.7",
+      "wpackagist-plugin/wordpress-seo": "18.0"
+    },
+    "require-dev": {
+      "wpackagist-plugin/debug-bar": "1.1.2",
+      "wpackagist-plugin/debug-bar-actions-and-filters-addon": "1.5.4"
+    },
+    "type": "project"
+  }
