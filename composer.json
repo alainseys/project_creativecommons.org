@@ -36,8 +36,8 @@
     ],
     "require": {
       "composer/installers": "^1.0",
-      "creativecommons/wp-plugin-creativecommons-website": "0.2.0",
-      "creativecommons/wp-theme-creativecommons.org": "2022.02.1",
+      "creativecommons/wp-plugin-creativecommons-website": "0.3.0",
+      "creativecommons/wp-theme-creativecommons.org": "2022.02.2",
       "wpackagist-plugin/ultimate-addons-for-gutenberg": "1.25.4",
       "wpackagist-plugin/wordpress-importer": "0.7",
       "wpackagist-plugin/wordpress-seo": "18.0"
