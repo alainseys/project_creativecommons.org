@@ -70,7 +70,7 @@ if wp --no-color --quiet plugin is-active "${plugin}" &> /dev/null
 then
     echo "no-op: ${plugin} is already installed & active"
 else
-    wp plugin install --activate "${plugin}"
+    wp plugin activate "${plugin}"
 fi
 unset plugin
 echo
