@@ -39,9 +39,7 @@ fi
 echo
 
 printf "\e[1m\e[7m %-80s\e[0m\n" 'Enable post name permalinks'
-# The following complex command includes `cat` due to an apparent bug in
-# macOS grep
-if wpcli --no-color --quiet rewrite list 2> /dev/null | cat \
+if wpcli --no-color --quiet rewrite list 2> /dev/null \
     | grep -qF 'page/?([0-9]{1,})/?$'
 then
     echo 'no-op: rewrite rules exist'
