@@ -3,8 +3,21 @@ version: "3"
 services:
 
   wordpress:
-    image: wordpress:latest  # https://hub.docker.com/_/wordpress/
     container_name: project_creativecommons-wordpress
+    depends_on:
+      - database
+    environment:
+      WORDPRESS_DB_HOST: database
+      WORDPRESS_DB_NAME: "${DB_NAME:-wordpress_db}"
+      WORDPRESS_DB_USER: root
+      WORDPRESS_DB_PASSWORD: "${DB_ROOT_PASSWORD:-db_password}"
+      WORDPRESS_CONFIG_EXTRA: |
+        # Use dispatch port by default
+        define('WP_HOME', 'http://127.0.0.1:8000');
+        define('WP_SITEURL', 'http://127.0.0.1:8000');
+    image: wordpress:latest  # https://hub.docker.com/_/wordpress/
+    networks:
+      - backend
     ports:
       - "8000:80"
     volumes:
@@ -16,78 +29,69 @@ services:
       - ./mp/docs:/var/www/platform/toolkit:ro
       - wp_data:/var/www/html
 
-    environment:
-      WORDPRESS_DB_HOST: database
-      WORDPRESS_DB_NAME: "${DB_NAME:-wordpress_db}"
-      WORDPRESS_DB_USER: root
-      WORDPRESS_DB_PASSWORD: "${DB_ROOT_PASSWORD:-db_password}"
-      WORDPRESS_CONFIG_EXTRA: |
-        # Use dispatch port by default
-        define('WP_HOME', 'http://127.0.0.1:8000');
-        define('WP_SITEURL', 'http://127.0.0.1:8000');
-    depends_on:
-      - database
-    networks:
-      - backend
-
   phpmyadmin:
-    image: phpmyadmin/phpmyadmin
     container_name: project_creativecommons-phpmyadmin
     environment:
       PMA_HOST: database
       PMA_PORT: 3306
       MYSQL_ROOT_PASSWORD: "${DB_ROOT_PASSWORD:-db_password}"
-    ports:
-      - "8003:80"
+    image: phpmyadmin/phpmyadmin
     networks:
       - backend
+    ports:
+      - "8003:80"
 
   database:
     build:
       # change db if required in .env file
       context: ./database/${DATABASE:-mariadb}
     container_name: project_creativecommons-database
-    ports:
-      - "3306:3306"
-    volumes:
-      #- ./wp-data:/docker-entrypoint-initdb.d
-      - db_data:/var/lib/mysql
     environment:
       MYSQL_DATABASE: "${DB_NAME:-wordpress_db}"
       MYSQL_USER: root
       MYSQL_ROOT_PASSWORD: "${DB_ROOT_PASSWORD:-db_password}"
     networks:
       - backend
+    ports:
+      - "3306:3306"
+    volumes:
+      - db_data:/var/lib/mysql
 
   composer:
-    image: composer/composer
+    # No-op on docker compose up. Instead:
+    #   use `./setup-wordpress.sh`
+    #   or `docker compose run --rm install`
+    #   or `docker compose run --rm update`
+    command: 'true'
     container_name: cc-base-composer
-    working_dir: /var/www/html/
-    command: "install"
-    restart: "no"
     depends_on:
       - wordpress
+    image: composer
+    restart: "no"
+    user: www-data
     volumes:
       - ./composer.json:/var/www/html/composer.json
+      - ./composer.lock:/var/www/html/composer.lock
       - wp_data:/var/www/html
+    working_dir: /var/www/html/
 
   wordpress-cli:
-    volumes_from:
+    depends_on:
       - database
-      - wordpress
-    image: wordpress:cli
-    user: xfs
     environment:
       WORDPRESS_DB_HOST: database
       WORDPRESS_DB_NAME: "${DB_NAME:-wordpress_db}"
       WORDPRESS_DB_USER: root
       WORDPRESS_DB_PASSWORD: "${DB_ROOT_PASSWORD:-db_password}"
-    volumes:
-      - wp_data:/var/www/html
-      - db_data:/var/lib/mysql
-      - ./content-import:/var/www/html/content-import
+    image: wordpress:cli
     networks:
       - backend
+    restart: "no"
+    volumes:
+      - wp_data:/var/www/html
+      - ./.env:/var/www/html/.env
+      - ./setup-wordpress.sh:/var/www/html/setup-wordpress.sh
+      - ./content-import:/var/www/html/content-import
 
 volumes:
   db_data:

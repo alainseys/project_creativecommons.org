@@ -72,7 +72,7 @@ If you change the value of the `DATABASE` variable at any time during developmen
 2. remove the volume
    - `docker volume rm <volume-id>`
 3. rebuild the docker image
-   - `docker-compose up --build -d`
+   - `docker compose up --build -d`
 
 ### CC Legal Tools development
 
@@ -99,7 +99,7 @@ Once you have installed the above development dependencies, you can run the foll
 Note: this step is handled automatically in the browser-based development environment.
 
 ```sh
-docker-compose up
+docker compose up
 ```
 
 The command above will create a variety of docker services:
@@ -112,7 +112,7 @@ The command above will create a variety of docker services:
 ### Stop the server
 
 ```sh
-docker-compose down
+docker compose down
 ```
 
 ## Setup WordPress (first-time)
@@ -125,10 +125,10 @@ docker-compose down
 ./setup-wordpress.sh
 ```
 
-If you want to run WPI CLI commands manually, the following alias willmake it much easier:
+If you want to run WPI CLI commands manually, the following alias will make it much easier:
 
 ``` sh
-alias wp="docker-compose run --rm wordpress-cli --url='http://127.0.0.1:8000'"
+alias wp="docker compose run --rm wordpress-cli --url='http://127.0.0.1:8000'"
 ```
 
 Verify the alias:
@@ -138,6 +138,8 @@ wp --info
 ```
 
 ### Web GUI
+
+**Note:** The WP CLI process, above, is preferred.
 
 If you are starting the WordPress service for the first time, you will see the
 WordPress installation wizard:
