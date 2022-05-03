@@ -8,6 +8,7 @@ Project to manage technical implementation of
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/creativecommons/project_creativecommons.org)
 
+
 ## Status
 
 1. Website: :warning: **Pre-release**
@@ -16,6 +17,7 @@ Project to manage technical implementation of
      legalcode and translations, and GitHub Issues for public help and support)
 
 [ccorgrepo]: https://github.com/creativecommons/creativecommons.org
+
 
 ## Overview
 
@@ -65,9 +67,11 @@ Infrastructure Management is handled by:
 [apacheconf]: config/wordpress-apache/000-default.conf
 [saltprime]: https://github.com/creativecommons/sre-salt-prime/
 
+
 ## Development
 
 See [`CONTRIBUTING.md`](CONTRIBUTING.md).
+
 
 ## Code of Conduct
 
@@ -78,12 +82,14 @@ See [`CONTRIBUTING.md`](CONTRIBUTING.md).
 > behavior to [conduct@creativecommons.org](mailto:conduct@creativecommons.org)
 > per our [reporting guidelines][reporting_guide].
 
-[code_of_conduct]:https://creativecommons.github.io/community/code-of-conduct/
-[reporting_guide]:https://creativecommons.github.io/community/code-of-conduct/enforcement/
+[code_of_conduct]: https://opensource.creativecommons.org/community/code-of-conduct/
+[reporting_guide]: https://opensource.creativecommons.org/community/code-of-conduct/enforcement/
+
 
 ## License
 
 - [`LICENSE`](LICENSE) (Expat/[MIT][mit] License)
+
 
 ## Contributing
 
@@ -92,6 +98,7 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 See [`CONTRIBUTING.md`](CONTRIBUTING.md) and [Contributors ✨](#contributors-), below.
 
 [mit]: http://www.opensource.org/licenses/MIT "The MIT License | Open Source Initiative"
+
 
 ### Contributors ✨
 
